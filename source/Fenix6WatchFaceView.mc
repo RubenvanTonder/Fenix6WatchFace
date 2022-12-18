@@ -20,6 +20,8 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
     var horizontalBatteryLines = 40;
     var batteryState;
     var batteryDecrease = 6;
+    var steps;
+    var stepDisplay;
 
     function initialize() {
         WatchFace.initialize();
@@ -51,6 +53,12 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         var systemStat = System.getSystemStats();
         var batteryString = systemStat.battery.format("%d") + "%";
         batteryState = systemStat.battery;
+
+        // Get the total steps for today and format it correctly
+        steps = ActivityMonitor.getInfo().steps;
+        var stepDisplay = View.findDrawableById("Steps") as Text;
+        var stepsString = "Steps: " + steps.format("%d");
+        stepDisplay.setText(stepsString);
 
         // Get HeartRate value and format it correctly
         hrValue = Activity.getActivityInfo().currentHeartRate;

@@ -107,7 +107,7 @@ Rez_mc_17_69_start:
             %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
             %tmp.68 = const :locX;
             %tmp.69 = 260;
-            %tmp.70 = 53;
+            %tmp.70 = 75;
             %tmp.71 = 100.0;
             %tmp.72 = div %tmp.70 %tmp.71;
             %tmp.73 = mul %tmp.69 %tmp.72;
@@ -176,49 +176,95 @@ Rez_mc_17_69_start:
             %tmp.142 = aputv %tmp.141 %tmp.138 %tmp.140;
             %tmp.97 = newc %tmp.100 (%tmp.142);
             lputv %rez_cmp_local_text_DayOfWeek.3 %tmp.97;
-[ "Rez.mc" 23 8 ]
-            %tmp.143 = newa Array<WatchUi.Drawable> 3;
-            %tmp.145 = lgetv %rez_cmp_local_text_TimeLabel.1;
-            %tmp.146 = dup %tmp.143;
-            %tmp.147 = aputv %tmp.146 0 %tmp.145;
-            %tmp.149 = lgetv %rez_cmp_local_text_heartRate.2;
-            %tmp.150 = dup %tmp.147;
-            %tmp.151 = aputv %tmp.150 1 %tmp.149;
-            %tmp.153 = lgetv %rez_cmp_local_text_DayOfWeek.3;
-            %tmp.154 = dup %tmp.151;
-            %tmp.155 = aputv %tmp.154 2 %tmp.153;
-            ret %tmp.155;
+[ "Rez.mc" 22 0 ]
+            [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
+            %rez_cmp_local_text_Steps.4 = local;
+            %tmp.145 = getm $.Toybox.WatchUi;
+            %tmp.146 = getv function ? %tmp.145 :Text;
+            %tmp.147 = newd 6;
+            %tmp.149 = const :identifier;
+            %tmp.150 = "Steps";
+            %tmp.151 = dup %tmp.147;
+            %tmp.152 = aputv %tmp.151 %tmp.149 %tmp.150;
+            %tmp.154 = const :color;
+            %tmp.155 = getm $.Toybox.Graphics;
+            %tmp.156 = getv %tmp.155 :COLOR_WHITE;
+            %tmp.157 = dup %tmp.152;
+            %tmp.158 = aputv %tmp.157 %tmp.154 %tmp.156;
+            %tmp.160 = const :locX;
+            %tmp.161 = 260;
+            %tmp.162 = 30;
+            %tmp.163 = 100.0;
+            %tmp.164 = div %tmp.162 %tmp.163;
+            %tmp.165 = mul %tmp.161 %tmp.164;
+            %tmp.166 = dup %tmp.158;
+            %tmp.167 = aputv %tmp.166 %tmp.160 %tmp.165;
+            %tmp.169 = const :locY;
+            %tmp.170 = 260;
+            %tmp.171 = 60;
+            %tmp.172 = 100.0;
+            %tmp.173 = div %tmp.171 %tmp.172;
+            %tmp.174 = mul %tmp.170 %tmp.173;
+            %tmp.175 = dup %tmp.167;
+            %tmp.176 = aputv %tmp.175 %tmp.169 %tmp.174;
+            %tmp.178 = const :justification;
+            %tmp.179 = getm $.Toybox.Graphics;
+            %tmp.180 = getv %tmp.179 :TEXT_JUSTIFY_CENTER;
+            %tmp.181 = dup %tmp.176;
+            %tmp.182 = aputv %tmp.181 %tmp.178 %tmp.180;
+            %tmp.184 = const :font;
+            %tmp.185 = getm $.Toybox.Graphics;
+            %tmp.186 = getv %tmp.185 :FONT_TINY;
+            %tmp.187 = dup %tmp.182;
+            %tmp.188 = aputv %tmp.187 %tmp.184 %tmp.186;
+            %tmp.143 = newc %tmp.146 (%tmp.188);
+            lputv %rez_cmp_local_text_Steps.4 %tmp.143;
+[ "Rez.mc" 24 8 ]
+            %tmp.189 = newa Array<WatchUi.Drawable> 4;
+            %tmp.191 = lgetv %rez_cmp_local_text_TimeLabel.1;
+            %tmp.192 = dup %tmp.189;
+            %tmp.193 = aputv %tmp.192 0 %tmp.191;
+            %tmp.195 = lgetv %rez_cmp_local_text_heartRate.2;
+            %tmp.196 = dup %tmp.193;
+            %tmp.197 = aputv %tmp.196 1 %tmp.195;
+            %tmp.199 = lgetv %rez_cmp_local_text_DayOfWeek.3;
+            %tmp.200 = dup %tmp.197;
+            %tmp.201 = aputv %tmp.200 2 %tmp.199;
+            %tmp.203 = lgetv %rez_cmp_local_text_Steps.4;
+            %tmp.204 = dup %tmp.201;
+            %tmp.205 = aputv %tmp.204 3 %tmp.203;
+            ret %tmp.205;
 Rez_mc_17_69_stop:
         }
     }
-    [ @file = "Rez.mc"; @line = 28; ]
+    [ @file = "Rez.mc"; @line = 29; ]
     module Menus {
-        [ @file = "Rez.mc"; @line = 28; ]
+        [ @file = "Rez.mc"; @line = 29; ]
         <init> {
         }
     }
-    [ @file = "Rez.mc"; @line = 30; ]
+    [ @file = "Rez.mc"; @line = 31; ]
     module Strings {
-        [ @file = "Rez.mc"; @line = 30; ]
+        [ @file = "Rez.mc"; @line = 31; ]
         <init> {
         }
-        [ @file = "Rez.mc"; @line = 31; ]
+        [ @file = "Rez.mc"; @line = 32; ]
         import Toybox.Lang;
-        [ @file = "Rez.mc"; @line = 32; @position = 19; initialized = true; ]
-        var ColorLightGray as Symbol;
         [ @file = "Rez.mc"; @line = 33; @position = 19; initialized = true; ]
-        var ColorBlue as Symbol;
+        var ColorLightGray as Symbol;
         [ @file = "Rez.mc"; @line = 34; @position = 19; initialized = true; ]
-        var ColorRed as Symbol;
+        var ColorBlue as Symbol;
         [ @file = "Rez.mc"; @line = 35; @position = 19; initialized = true; ]
-        var ColorDarkGray as Symbol;
+        var ColorRed as Symbol;
         [ @file = "Rez.mc"; @line = 36; @position = 19; initialized = true; ]
-        var ColorBlack as Symbol;
+        var ColorDarkGray as Symbol;
         [ @file = "Rez.mc"; @line = 37; @position = 19; initialized = true; ]
-        var ColorWhite as Symbol;
+        var ColorBlack as Symbol;
         [ @file = "Rez.mc"; @line = 38; @position = 19; initialized = true; ]
-        var ColorGreen as Symbol;
+        var ColorWhite as Symbol;
         [ @file = "Rez.mc"; @line = 39; @position = 19; initialized = true; ]
+        var ColorGreen as Symbol;
+        [ @file = "Rez.mc"; @line = 40; @position = 19; initialized = true; ]
         var AppName as Symbol;
     }
 }

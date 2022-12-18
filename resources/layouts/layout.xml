@@ -8,7 +8,7 @@
     color="Graphics.COLOR_WHITE" />
 
     <label id="heartRate"
-    x="53%"
+    x="75%"
     y="60%"
     font="Graphics.FONT_SMALL"
     justification="Graphics.TEXT_JUSTIFY_CENTER"
@@ -18,6 +18,13 @@
     x="84%"
     y="47.5%"
     font="Graphics.FONT_MEDIUM"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+
+    <label id="Steps"
+    x="30%"
+    y="60%"
+    font="Graphics.FONT_TINY"
     justification="Graphics.TEXT_JUSTIFY_CENTER"
     color="Graphics.COLOR_WHITE" />
 </layout>
