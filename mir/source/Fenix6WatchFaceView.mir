@@ -1,0 +1,277 @@
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 4; ]
+import Toybox.System;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 5; ]
+import Toybox.WatchUi;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 6; ]
+import Toybox.Sensor;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 7; ]
+import Toybox.Time.Gregorian;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 8; ]
+import Toybox.Activity;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 9; ]
+import Toybox.Graphics;
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 11; ]
+class Fenix6WatchFaceView extends WatchUi.WatchFace{
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 11; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 12; @position = 8; ]
+    var hrValue;
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 13; @position = 8; ]
+    var rectLength = 2;
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 14; @position = 8; ]
+    var rectWidth = 53;
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 15; @position = 8; ]
+    var x = 185;
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 16; @position = 8; ]
+    var y = 103;
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 17; ]
+    function initialize() as Void {
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_17_26_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 18 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 19 8 ]
+        %tmp.4 = 0.0f;
+        putv self :hrValue %tmp.4;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_17_26_stop:
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 24; ]
+    function onLayout(dc as Dc) as Void {
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_24_40_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 25 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_24_40_stop:
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 31; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 35; ]
+    function onUpdate(dc as Dc) as Void {
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 38 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 39 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %timeString.2 = local;
+        %tmp.4 = getm $.Toybox.Lang;
+        %tmp.5 = getv function %tmp.4 :format;
+        %tmp.6 = "$1$:$2$";
+        %tmp.7 = newa 2;
+        %tmp.8 = lgetv %clockTime.1;
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = dup %tmp.7;
+        %tmp.11 = aputv %tmp.10 0 %tmp.9;
+        %tmp.12 = lgetv %clockTime.1;
+        %tmp.13 = getv %tmp.12 :min;
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "%02d";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = dup %tmp.11;
+        %tmp.18 = aputv %tmp.17 1 %tmp.16;
+        %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
+        lputv %timeString.2 %tmp.19;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 40 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %view.3 = local;
+        %tmp.21 = getv ? :View;
+        %tmp.22 = getv function %tmp.21 :findDrawableById;
+        %tmp.23 = "TimeLabel";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = as %tmp.24 Text;
+        lputv %view.3 %tmp.25;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 41 8 ]
+        %tmp.26 = lgetv %view.3;
+        %tmp.27 = getv function %tmp.26 :setText;
+        %tmp.29 = lgetv %timeString.2;
+        invoke %tmp.26 %tmp.27(%tmp.29);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 44 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %systemStat.4 = local;
+        %tmp.30 = getm $.Toybox.System;
+        %tmp.31 = getv function %tmp.30 :getSystemStats;
+        %tmp.32 = invoke %tmp.30 %tmp.31();
+        lputv %systemStat.4 %tmp.32;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 45 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %batteryString.5 = local;
+        %tmp.33 = lgetv %systemStat.4;
+        %tmp.34 = getv %tmp.33 :battery;
+        %tmp.35 = getv function %tmp.34 :format;
+        %tmp.36 = "%d";
+        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
+        %tmp.38 = "%";
+        %tmp.39 = add %tmp.37 %tmp.38;
+        lputv %batteryString.5 %tmp.39;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 46 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %viewBattery.6 = local;
+        %tmp.41 = getv ? :View;
+        %tmp.42 = getv function %tmp.41 :findDrawableById;
+        %tmp.43 = "Battery";
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        %tmp.45 = as %tmp.44 Text;
+        lputv %viewBattery.6 %tmp.45;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 47 8 ]
+        %tmp.46 = lgetv %viewBattery.6;
+        %tmp.47 = getv function %tmp.46 :setText;
+        %tmp.49 = lgetv %batteryString.5;
+        invoke %tmp.46 %tmp.47(%tmp.49);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 50 8 ]
+        %tmp.50 = getm $.Toybox.Activity;
+        %tmp.51 = getv function %tmp.50 :getActivityInfo;
+        %tmp.52 = invoke %tmp.50 %tmp.51();
+        %tmp.53 = getv %tmp.52 :currentHeartRate;
+        putv self :hrValue %tmp.53;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 51 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %value.7 = local;
+        %tmp.55 = getv ? :View;
+        %tmp.56 = getv function %tmp.55 :findDrawableById;
+        %tmp.57 = "heartRate";
+        %tmp.58 = invoke %tmp.55 %tmp.56(%tmp.57);
+        %tmp.59 = as %tmp.58 Text;
+        lputv %value.7 %tmp.59;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 52 8 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_8_if_stmt:
+        %tmp.61 = getv ? :hrValue;
+        %tmp.62 = null;
+        %tmp.63 = eq %tmp.61 %tmp.62;
+        bf %tmp.63 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_8_if_false;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_8_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_27_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 53 12 ]
+        %tmp.64 = lgetv %value.7;
+        %tmp.65 = getv function %tmp.64 :setText;
+        %tmp.66 = "HR ";
+        %tmp.67 = "--";
+        %tmp.68 = add %tmp.66 %tmp.67;
+        invoke %tmp.64 %tmp.65(%tmp.68);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_27_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_8_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_8_if_false:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_54_13_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 55 12 ]
+        %tmp.69 = lgetv %value.7;
+        %tmp.70 = getv function %tmp.69 :setText;
+        %tmp.71 = "HR ";
+        %tmp.73 = getv ? :hrValue;
+        %tmp.74 = as %tmp.73 { (!Null) };
+        %tmp.75 = getv function %tmp.74 :format;
+        %tmp.76 = "%.f";
+        %tmp.77 = invoke %tmp.74 %tmp.75(%tmp.76);
+        %tmp.78 = add %tmp.71 %tmp.77;
+        invoke %tmp.69 %tmp.70(%tmp.78);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_54_13_stop:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_52_8_if_end:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 58 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %date.8 = local;
+        %tmp.79 = getm $.Toybox.Time.Gregorian;
+        %tmp.80 = getv function %tmp.79 :info;
+        %tmp.82 = getv ? :Time;
+        %tmp.83 = getv function %tmp.82 :now;
+        %tmp.84 = invoke %tmp.82 %tmp.83();
+        %tmp.86 = getv ? :Time;
+        %tmp.87 = getv %tmp.86 :FORMAT_SHORT;
+        %tmp.88 = invoke %tmp.79 %tmp.80(%tmp.84, %tmp.87);
+        lputv %date.8 %tmp.88;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 59 8 ]
+        [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop" ]
+        %dayOfWeek.9 = local;
+        %tmp.90 = getv ? :View;
+        %tmp.91 = getv function %tmp.90 :findDrawableById;
+        %tmp.92 = "DayOfWeek";
+        %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
+        %tmp.94 = as %tmp.93 Text;
+        lputv %dayOfWeek.9 %tmp.94;
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 60 8 ]
+        %tmp.95 = lgetv %dayOfWeek.9;
+        %tmp.96 = getv function %tmp.95 :setText;
+        %tmp.97 = newa 7;
+        %tmp.98 = "Sun";
+        %tmp.99 = dup %tmp.97;
+        %tmp.100 = aputv %tmp.99 0 %tmp.98;
+        %tmp.101 = "Mon";
+        %tmp.102 = dup %tmp.100;
+        %tmp.103 = aputv %tmp.102 1 %tmp.101;
+        %tmp.104 = "Tue";
+        %tmp.105 = dup %tmp.103;
+        %tmp.106 = aputv %tmp.105 2 %tmp.104;
+        %tmp.107 = "Wed";
+        %tmp.108 = dup %tmp.106;
+        %tmp.109 = aputv %tmp.108 3 %tmp.107;
+        %tmp.110 = "Thu";
+        %tmp.111 = dup %tmp.109;
+        %tmp.112 = aputv %tmp.111 4 %tmp.110;
+        %tmp.113 = "Fri";
+        %tmp.114 = dup %tmp.112;
+        %tmp.115 = aputv %tmp.114 5 %tmp.113;
+        %tmp.116 = "Sat";
+        %tmp.117 = dup %tmp.115;
+        %tmp.118 = aputv %tmp.117 6 %tmp.116;
+        %tmp.119 = lgetv %date.8;
+        %tmp.120 = getv %tmp.119 :day_of_week;
+        %tmp.121 = 1;
+        %tmp.122 = sub %tmp.120 %tmp.121;
+        %tmp.123 = agetv %tmp.118 %tmp.122;
+        invoke %tmp.95 %tmp.96(%tmp.123);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 63 8 ]
+        %tmp.125 = getv ? :View;
+        %tmp.126 = getv function %tmp.125 :onUpdate;
+        %tmp.128 = lgetv %dc;
+        invoke %tmp.125 %tmp.126(%tmp.128);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 65 8 ]
+        %tmp.129 = lgetv %dc;
+        %tmp.130 = getv function %tmp.129 :setColor;
+        %tmp.131 = getm $.Toybox.Graphics;
+        %tmp.132 = getv %tmp.131 :COLOR_RED;
+        %tmp.133 = getm $.Toybox.Graphics;
+        %tmp.134 = getv %tmp.133 :COLOR_BLACK;
+        invoke %tmp.129 %tmp.130(%tmp.132, %tmp.134);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 66 8 ]
+        %tmp.135 = lgetv %dc;
+        %tmp.136 = getv function %tmp.135 :fillRectangle;
+        %tmp.138 = getv ? :x;
+        %tmp.140 = getv ? :y;
+        %tmp.142 = getv ? :rectLength;
+        %tmp.144 = getv ? :rectWidth;
+        invoke %tmp.135 %tmp.136(%tmp.138, %tmp.140, %tmp.142, %tmp.144);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_35_40_stop:
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 73; ]
+    function onHide() as Void {
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 77; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 81; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 1; ]
+<init> {
+}

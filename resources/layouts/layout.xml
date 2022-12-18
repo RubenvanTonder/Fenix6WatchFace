@@ -1,0 +1,30 @@
+<layout id="WatchFace">
+    
+   <label id="TimeLabel" 
+    x="35%" 
+    y="center" 
+    font="Graphics.FONT_SYSTEM_NUMBER_HOT" 
+    justification="Graphics.TEXT_JUSTIFY_CENTER" 
+    color="Graphics.COLOR_WHITE" />
+
+    <label id="Battery"
+    x="84%"
+    y="60%"
+    font="Graphics.FONT_SMALL"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+
+    <label id="heartRate"
+    x="53%"
+    y="60%"
+    font="Graphics.FONT_SMALL"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+
+    <label id="DayOfWeek"
+    x="84%"
+    y="47.5%"
+    font="Graphics.FONT_MEDIUM"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+</layout>
