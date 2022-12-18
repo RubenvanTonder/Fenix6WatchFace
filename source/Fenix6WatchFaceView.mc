@@ -65,6 +65,7 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         var dayOfWeek = View.findDrawableById("DayOfWeek") as Text;
         dayOfWeek.setText(["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][date.day_of_week - 1]);
 
+
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         // Draw Rect
