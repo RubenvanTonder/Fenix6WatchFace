@@ -145,7 +145,7 @@ Rez_mc_17_69_start:
             %tmp.106 = aputv %tmp.105 %tmp.103 %tmp.104;
             %tmp.108 = const :color;
             %tmp.109 = getm $.Toybox.Graphics;
-            %tmp.110 = getv %tmp.109 :COLOR_RED;
+            %tmp.110 = getv %tmp.109 :COLOR_WHITE;
             %tmp.111 = dup %tmp.106;
             %tmp.112 = aputv %tmp.111 %tmp.108 %tmp.110;
             %tmp.114 = const :locX;

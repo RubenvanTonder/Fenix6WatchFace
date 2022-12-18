@@ -7,13 +7,6 @@
     justification="Graphics.TEXT_JUSTIFY_CENTER" 
     color="Graphics.COLOR_WHITE" />
 
-    <label id="Battery"
-    x="84%"
-    y="60%"
-    font="Graphics.FONT_SMALL"
-    justification="Graphics.TEXT_JUSTIFY_CENTER"
-    color="Graphics.COLOR_WHITE" />
-
     <label id="heartRate"
     x="53%"
     y="60%"
