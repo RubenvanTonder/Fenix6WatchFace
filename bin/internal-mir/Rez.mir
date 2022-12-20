@@ -92,12 +92,12 @@ Rez_mc_17_69_start:
             lputv %rez_cmp_local_text_TimeLabel.1 %tmp.1;
 [ "Rez.mc" 20 0 ]
             [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
-            %rez_cmp_local_text_heartRate.2 = local;
+            %rez_cmp_local_text_DayOfWeek.2 = local;
             %tmp.53 = getm $.Toybox.WatchUi;
             %tmp.54 = getv function ? %tmp.53 :Text;
             %tmp.55 = newd 6;
             %tmp.57 = const :identifier;
-            %tmp.58 = "heartRate";
+            %tmp.58 = "DayOfWeek";
             %tmp.59 = dup %tmp.55;
             %tmp.60 = aputv %tmp.59 %tmp.57 %tmp.58;
             %tmp.62 = const :color;
@@ -107,7 +107,7 @@ Rez_mc_17_69_start:
             %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
             %tmp.68 = const :locX;
             %tmp.69 = 260;
-            %tmp.70 = 75;
+            %tmp.70 = 84;
             %tmp.71 = 100.0;
             %tmp.72 = div %tmp.70 %tmp.71;
             %tmp.73 = mul %tmp.69 %tmp.72;
@@ -115,7 +115,7 @@ Rez_mc_17_69_start:
             %tmp.75 = aputv %tmp.74 %tmp.68 %tmp.73;
             %tmp.77 = const :locY;
             %tmp.78 = 260;
-            %tmp.79 = 60;
+            %tmp.79 = 47.5;
             %tmp.80 = 100.0;
             %tmp.81 = div %tmp.79 %tmp.80;
             %tmp.82 = mul %tmp.78 %tmp.81;
@@ -128,19 +128,19 @@ Rez_mc_17_69_start:
             %tmp.90 = aputv %tmp.89 %tmp.86 %tmp.88;
             %tmp.92 = const :font;
             %tmp.93 = getm $.Toybox.Graphics;
-            %tmp.94 = getv %tmp.93 :FONT_SMALL;
+            %tmp.94 = getv %tmp.93 :FONT_MEDIUM;
             %tmp.95 = dup %tmp.90;
             %tmp.96 = aputv %tmp.95 %tmp.92 %tmp.94;
             %tmp.51 = newc %tmp.54 (%tmp.96);
-            lputv %rez_cmp_local_text_heartRate.2 %tmp.51;
+            lputv %rez_cmp_local_text_DayOfWeek.2 %tmp.51;
 [ "Rez.mc" 21 0 ]
             [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
-            %rez_cmp_local_text_DayOfWeek.3 = local;
+            %rez_cmp_local_text_Steps.3 = local;
             %tmp.99 = getm $.Toybox.WatchUi;
             %tmp.100 = getv function ? %tmp.99 :Text;
             %tmp.101 = newd 6;
             %tmp.103 = const :identifier;
-            %tmp.104 = "DayOfWeek";
+            %tmp.104 = "Steps";
             %tmp.105 = dup %tmp.101;
             %tmp.106 = aputv %tmp.105 %tmp.103 %tmp.104;
             %tmp.108 = const :color;
@@ -150,7 +150,7 @@ Rez_mc_17_69_start:
             %tmp.112 = aputv %tmp.111 %tmp.108 %tmp.110;
             %tmp.114 = const :locX;
             %tmp.115 = 260;
-            %tmp.116 = 84;
+            %tmp.116 = 20;
             %tmp.117 = 100.0;
             %tmp.118 = div %tmp.116 %tmp.117;
             %tmp.119 = mul %tmp.115 %tmp.118;
@@ -158,7 +158,7 @@ Rez_mc_17_69_start:
             %tmp.121 = aputv %tmp.120 %tmp.114 %tmp.119;
             %tmp.123 = const :locY;
             %tmp.124 = 260;
-            %tmp.125 = 47.5;
+            %tmp.125 = 60;
             %tmp.126 = 100.0;
             %tmp.127 = div %tmp.125 %tmp.126;
             %tmp.128 = mul %tmp.124 %tmp.127;
@@ -171,19 +171,19 @@ Rez_mc_17_69_start:
             %tmp.136 = aputv %tmp.135 %tmp.132 %tmp.134;
             %tmp.138 = const :font;
             %tmp.139 = getm $.Toybox.Graphics;
-            %tmp.140 = getv %tmp.139 :FONT_MEDIUM;
+            %tmp.140 = getv %tmp.139 :FONT_XTINY;
             %tmp.141 = dup %tmp.136;
             %tmp.142 = aputv %tmp.141 %tmp.138 %tmp.140;
             %tmp.97 = newc %tmp.100 (%tmp.142);
-            lputv %rez_cmp_local_text_DayOfWeek.3 %tmp.97;
+            lputv %rez_cmp_local_text_Steps.3 %tmp.97;
 [ "Rez.mc" 22 0 ]
             [ "Rez_mc_17_69_start" "Rez_mc_17_69_stop" ]
-            %rez_cmp_local_text_Steps.4 = local;
+            %rez_cmp_local_text_Cals.4 = local;
             %tmp.145 = getm $.Toybox.WatchUi;
             %tmp.146 = getv function ? %tmp.145 :Text;
             %tmp.147 = newd 6;
             %tmp.149 = const :identifier;
-            %tmp.150 = "Steps";
+            %tmp.150 = "Cals";
             %tmp.151 = dup %tmp.147;
             %tmp.152 = aputv %tmp.151 %tmp.149 %tmp.150;
             %tmp.154 = const :color;
@@ -193,7 +193,7 @@ Rez_mc_17_69_start:
             %tmp.158 = aputv %tmp.157 %tmp.154 %tmp.156;
             %tmp.160 = const :locX;
             %tmp.161 = 260;
-            %tmp.162 = 30;
+            %tmp.162 = 60;
             %tmp.163 = 100.0;
             %tmp.164 = div %tmp.162 %tmp.163;
             %tmp.165 = mul %tmp.161 %tmp.164;
@@ -214,23 +214,23 @@ Rez_mc_17_69_start:
             %tmp.182 = aputv %tmp.181 %tmp.178 %tmp.180;
             %tmp.184 = const :font;
             %tmp.185 = getm $.Toybox.Graphics;
-            %tmp.186 = getv %tmp.185 :FONT_TINY;
+            %tmp.186 = getv %tmp.185 :FONT_XTINY;
             %tmp.187 = dup %tmp.182;
             %tmp.188 = aputv %tmp.187 %tmp.184 %tmp.186;
             %tmp.143 = newc %tmp.146 (%tmp.188);
-            lputv %rez_cmp_local_text_Steps.4 %tmp.143;
+            lputv %rez_cmp_local_text_Cals.4 %tmp.143;
 [ "Rez.mc" 24 8 ]
             %tmp.189 = newa Array<WatchUi.Drawable> 4;
             %tmp.191 = lgetv %rez_cmp_local_text_TimeLabel.1;
             %tmp.192 = dup %tmp.189;
             %tmp.193 = aputv %tmp.192 0 %tmp.191;
-            %tmp.195 = lgetv %rez_cmp_local_text_heartRate.2;
+            %tmp.195 = lgetv %rez_cmp_local_text_DayOfWeek.2;
             %tmp.196 = dup %tmp.193;
             %tmp.197 = aputv %tmp.196 1 %tmp.195;
-            %tmp.199 = lgetv %rez_cmp_local_text_DayOfWeek.3;
+            %tmp.199 = lgetv %rez_cmp_local_text_Steps.3;
             %tmp.200 = dup %tmp.197;
             %tmp.201 = aputv %tmp.200 2 %tmp.199;
-            %tmp.203 = lgetv %rez_cmp_local_text_Steps.4;
+            %tmp.203 = lgetv %rez_cmp_local_text_Cals.4;
             %tmp.204 = dup %tmp.201;
             %tmp.205 = aputv %tmp.204 3 %tmp.203;
             ret %tmp.205;

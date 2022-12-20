@@ -21,7 +21,13 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
     var batteryState;
     var batteryDecrease = 6;
     var steps;
+    var cals;
     var stepDisplay;
+    var hrRecX = 0;
+    var hrRecY = 190;
+    var hrRecWidth = 35;
+    var herRectheight = 5;
+
 
     function initialize() {
         WatchFace.initialize();
@@ -60,14 +66,15 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         var stepsString = "Steps: " + steps.format("%d");
         stepDisplay.setText(stepsString);
 
+        // Get the total Calories for today and format it correctly
+        cals = ActivityMonitor.getInfo().calories;
+        var calsDisplay = View.findDrawableById("Cals") as Text;
+        var calsString = "Cals: " + steps.format("%d");
+        calsDisplay.setText(calsString);
+
         // Get HeartRate value and format it correctly
         hrValue = Activity.getActivityInfo().currentHeartRate;
-        var value = View.findDrawableById("heartRate") as Text;
-        if(hrValue == null){
-            value.setText("HR " + "--");
-        }else{
-            value.setText("HR " + hrValue.format("%.f"));
-        }
+        
         //Get Day of the week
         var date = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         var dayOfWeek = View.findDrawableById("DayOfWeek") as Text;
@@ -93,6 +100,62 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         }
         dc.fillRectangle(batteryX + 2,  batteryY + 2, (horizontalBatteryLines-4)*batteryState/100, verticalBatteryLines-4);
        
+       if(hrValue != null){
+        if (hrValue.toNumber() >=154){
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*5 + 20, hrRecY, hrRecWidth*(26-(180 - hrValue.toNumber()))/26, herRectheight);
+                System.println(hrValue.toNumber());
+
+        }else if (hrValue.toNumber() >=128){
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY, hrRecWidth*(26-(154 - hrValue.toNumber()))/26, herRectheight);
+                System.println(hrValue.toNumber());       
+        
+        }else if (hrValue.toNumber() >=102){
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth*(26-(128 - hrValue.toNumber()))/26, herRectheight);
+                System.println(hrValue.toNumber());
+            
+        }else if (hrValue.toNumber() >=76){
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+
+                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth*(26-(102 - hrValue.toNumber()))/26, herRectheight);
+                System.println(hrValue.toNumber());
+        }else if (hrValue.toNumber() >=50){
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth*(26-(76 - hrValue.toNumber()))/26, herRectheight);
+                System.println(hrValue.toNumber());
+        }
+    }
 
     }
     
