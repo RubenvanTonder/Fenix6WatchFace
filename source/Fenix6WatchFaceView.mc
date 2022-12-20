@@ -69,7 +69,7 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         // Get the total Calories for today and format it correctly
         cals = ActivityMonitor.getInfo().calories;
         var calsDisplay = View.findDrawableById("Cals") as Text;
-        var calsString = "Cals: " + steps.format("%d");
+        var calsString = "Cals: " + cals.format("%d");
         calsDisplay.setText(calsString);
 
         // Get HeartRate value and format it correctly

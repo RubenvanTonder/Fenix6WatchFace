@@ -205,7 +205,7 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fen
         [ "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_50_40_start" "C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_50_40_stop" ]
         %calsString.9 = local;
         %tmp.75 = "Cals: ";
-        %tmp.77 = getv ? :steps;
+        %tmp.77 = getv ? :cals;
         %tmp.78 = getv function %tmp.77 :format;
         %tmp.79 = "%d";
         %tmp.80 = invoke %tmp.77 %tmp.78(%tmp.79);
