@@ -99,62 +99,71 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
             dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
         }
         dc.fillRectangle(batteryX + 2,  batteryY + 2, (horizontalBatteryLines-4)*batteryState/100, verticalBatteryLines-4);
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+
+        dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
+        dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
+
+        dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+        dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth, herRectheight);
+
+        dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
+        dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY, hrRecWidth, herRectheight);
+
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
+        dc.fillRectangle(hrRecX + hrRecWidth*5 + 20, hrRecY, hrRecWidth, herRectheight);
        
        if(hrValue != null){
         if (hrValue.toNumber() >=154){
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
-
-                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
-
-                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth, herRectheight);
-
-                dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY, hrRecWidth, herRectheight);
-
                 dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*5 + 20, hrRecY, hrRecWidth*(26-(180 - hrValue.toNumber()))/26, herRectheight);
-                System.println(hrValue.toNumber());
+                dc.fillRectangle(hrRecX + hrRecWidth*5 + 20, hrRecY-2, hrRecWidth, herRectheight+4);
 
-        }else if (hrValue.toNumber() >=128){
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+                dc.drawText((hrRecX + hrRecWidth*5 + 20)+hrRecWidth*(26-(180-hrValue.toNumber()))/26, 
+                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
+                
 
-                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
-
-                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth, herRectheight);
+                
+        }else if (hrValue.toNumber() >=128){
 
                 dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY, hrRecWidth*(26-(154 - hrValue.toNumber()))/26, herRectheight);
-                System.println(hrValue.toNumber());       
+                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY-2, hrRecWidth, herRectheight+4);
+
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.drawText((hrRecX + hrRecWidth*4 + 15)+hrRecWidth*(26-(154-hrValue.toNumber()))/26, 
+                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
+                
+      
         
         }else if (hrValue.toNumber() >=102){
+
+                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
+                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY-2, hrRecWidth, herRectheight+4);
+
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
+                dc.drawText((hrRecX + hrRecWidth*3 + 10)+hrRecWidth*(26-(128-hrValue.toNumber()))/26, 
+                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
+                
+        }else if (hrValue.toNumber() >=76){
 
                 dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth, herRectheight);
+                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY-2, hrRecWidth, herRectheight+4);
 
-                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY, hrRecWidth*(26-(128 - hrValue.toNumber()))/26, herRectheight);
-                System.println(hrValue.toNumber());
-            
-        }else if (hrValue.toNumber() >=76){
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth, herRectheight);
-
-                dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY, hrRecWidth*(26-(102 - hrValue.toNumber()))/26, herRectheight);
-                System.println(hrValue.toNumber());
+                dc.drawText((hrRecX + hrRecWidth*2 + 5)+hrRecWidth*(26-(102-hrValue.toNumber()))/26, 
+                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
+                
         }else if (hrValue.toNumber() >=50){
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY, hrRecWidth*(26-(76 - hrValue.toNumber()))/26, herRectheight);
-                System.println(hrValue.toNumber());
+                dc.fillRectangle(hrRecX + hrRecWidth , hrRecY-2, hrRecWidth, herRectheight+4);
+
+                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+                dc.drawText((hrRecX + hrRecWidth )+hrRecWidth*(26-(76-hrValue.toNumber()))/26, 
+                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
+
         }
+ 
     }
 
     }

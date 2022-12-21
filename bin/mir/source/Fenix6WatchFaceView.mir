@@ -381,491 +381,564 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fen
         %tmp.219 = 4;
         %tmp.220 = sub %tmp.218 %tmp.219;
         invoke %tmp.198 %tmp.199(%tmp.203, %tmp.207, %tmp.216, %tmp.220);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 103 7 ]
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_7_if_stmt:
-        %tmp.222 = getv ? :hrValue;
-        %tmp.223 = null;
-        %tmp.224 = ne %tmp.222 %tmp.223;
-        bf %tmp.224 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_7_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_7_if_true:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_26_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 104 8 ]
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_8_if_stmt:
-        %tmp.226 = getv ? :hrValue;
-        %tmp.227 = as %tmp.226 { (!Null) };
-        %tmp.228 = getv function %tmp.227 :toNumber;
-        %tmp.229 = invoke %tmp.227 %tmp.228();
-        %tmp.230 = 154;
-        %tmp.231 = gte %tmp.229 %tmp.230;
-        bf %tmp.231 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_8_if_false;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_8_if_true:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_37_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 105 16 ]
-        %tmp.232 = lgetv %dc;
-        %tmp.233 = getv function %tmp.232 :setColor;
-        %tmp.234 = getm $.Toybox.Graphics;
-        %tmp.235 = getv %tmp.234 :COLOR_WHITE;
-        %tmp.236 = getm $.Toybox.Graphics;
-        %tmp.237 = getv %tmp.236 :COLOR_BLACK;
-        invoke %tmp.232 %tmp.233(%tmp.235, %tmp.237);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 106 16 ]
-        %tmp.238 = lgetv %dc;
-        %tmp.239 = getv function %tmp.238 :fillRectangle;
-        %tmp.241 = getv ? :hrRecX;
-        %tmp.243 = getv ? :hrRecWidth;
-        %tmp.244 = add %tmp.241 %tmp.243;
-        %tmp.246 = getv ? :hrRecY;
-        %tmp.248 = getv ? :hrRecWidth;
-        %tmp.250 = getv ? :herRectheight;
-        invoke %tmp.238 %tmp.239(%tmp.244, %tmp.246, %tmp.248, %tmp.250);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 108 16 ]
-        %tmp.251 = lgetv %dc;
-        %tmp.252 = getv function %tmp.251 :setColor;
-        %tmp.253 = getm $.Toybox.Graphics;
-        %tmp.254 = getv %tmp.253 :COLOR_GREEN;
-        %tmp.255 = getm $.Toybox.Graphics;
-        %tmp.256 = getv %tmp.255 :COLOR_BLACK;
-        invoke %tmp.251 %tmp.252(%tmp.254, %tmp.256);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 109 16 ]
-        %tmp.257 = lgetv %dc;
-        %tmp.258 = getv function %tmp.257 :fillRectangle;
-        %tmp.260 = getv ? :hrRecX;
-        %tmp.262 = getv ? :hrRecWidth;
-        %tmp.263 = 2;
-        %tmp.264 = mul %tmp.262 %tmp.263;
-        %tmp.265 = add %tmp.260 %tmp.264;
-        %tmp.266 = 5;
-        %tmp.267 = add %tmp.265 %tmp.266;
-        %tmp.269 = getv ? :hrRecY;
-        %tmp.271 = getv ? :hrRecWidth;
-        %tmp.273 = getv ? :herRectheight;
-        invoke %tmp.257 %tmp.258(%tmp.267, %tmp.269, %tmp.271, %tmp.273);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 111 16 ]
-        %tmp.274 = lgetv %dc;
-        %tmp.275 = getv function %tmp.274 :setColor;
-        %tmp.276 = getm $.Toybox.Graphics;
-        %tmp.277 = getv %tmp.276 :COLOR_YELLOW;
-        %tmp.278 = getm $.Toybox.Graphics;
-        %tmp.279 = getv %tmp.278 :COLOR_BLACK;
-        invoke %tmp.274 %tmp.275(%tmp.277, %tmp.279);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 112 16 ]
-        %tmp.280 = lgetv %dc;
-        %tmp.281 = getv function %tmp.280 :fillRectangle;
-        %tmp.283 = getv ? :hrRecX;
-        %tmp.285 = getv ? :hrRecWidth;
-        %tmp.286 = 3;
-        %tmp.287 = mul %tmp.285 %tmp.286;
-        %tmp.288 = add %tmp.283 %tmp.287;
-        %tmp.289 = 10;
-        %tmp.290 = add %tmp.288 %tmp.289;
-        %tmp.292 = getv ? :hrRecY;
-        %tmp.294 = getv ? :hrRecWidth;
-        %tmp.296 = getv ? :herRectheight;
-        invoke %tmp.280 %tmp.281(%tmp.290, %tmp.292, %tmp.294, %tmp.296);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 114 16 ]
-        %tmp.297 = lgetv %dc;
-        %tmp.298 = getv function %tmp.297 :setColor;
-        %tmp.299 = getm $.Toybox.Graphics;
-        %tmp.300 = getv %tmp.299 :COLOR_ORANGE;
-        %tmp.301 = getm $.Toybox.Graphics;
-        %tmp.302 = getv %tmp.301 :COLOR_BLACK;
-        invoke %tmp.297 %tmp.298(%tmp.300, %tmp.302);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 115 16 ]
-        %tmp.303 = lgetv %dc;
-        %tmp.304 = getv function %tmp.303 :fillRectangle;
-        %tmp.306 = getv ? :hrRecX;
-        %tmp.308 = getv ? :hrRecWidth;
-        %tmp.309 = 4;
-        %tmp.310 = mul %tmp.308 %tmp.309;
-        %tmp.311 = add %tmp.306 %tmp.310;
-        %tmp.312 = 15;
-        %tmp.313 = add %tmp.311 %tmp.312;
-        %tmp.315 = getv ? :hrRecY;
-        %tmp.317 = getv ? :hrRecWidth;
-        %tmp.319 = getv ? :herRectheight;
-        invoke %tmp.303 %tmp.304(%tmp.313, %tmp.315, %tmp.317, %tmp.319);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 117 16 ]
-        %tmp.320 = lgetv %dc;
-        %tmp.321 = getv function %tmp.320 :setColor;
-        %tmp.322 = getm $.Toybox.Graphics;
-        %tmp.323 = getv %tmp.322 :COLOR_RED;
-        %tmp.324 = getm $.Toybox.Graphics;
-        %tmp.325 = getv %tmp.324 :COLOR_BLACK;
-        invoke %tmp.320 %tmp.321(%tmp.323, %tmp.325);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 118 16 ]
-        %tmp.326 = lgetv %dc;
-        %tmp.327 = getv function %tmp.326 :fillRectangle;
-        %tmp.329 = getv ? :hrRecX;
-        %tmp.331 = getv ? :hrRecWidth;
-        %tmp.332 = 5;
-        %tmp.333 = mul %tmp.331 %tmp.332;
-        %tmp.334 = add %tmp.329 %tmp.333;
-        %tmp.335 = 20;
-        %tmp.336 = add %tmp.334 %tmp.335;
-        %tmp.338 = getv ? :hrRecY;
-        %tmp.340 = getv ? :hrRecWidth;
-        %tmp.341 = 26;
-        %tmp.342 = 180;
-        %tmp.344 = getv ? :hrValue;
-        %tmp.345 = getv function %tmp.344 :toNumber;
-        %tmp.346 = invoke %tmp.344 %tmp.345();
-        %tmp.347 = sub %tmp.342 %tmp.346;
-        %tmp.348 = sub %tmp.341 %tmp.347;
-        %tmp.349 = mul %tmp.340 %tmp.348;
-        %tmp.350 = 26;
-        %tmp.351 = div %tmp.349 %tmp.350;
-        %tmp.353 = getv ? :herRectheight;
-        invoke %tmp.326 %tmp.327(%tmp.336, %tmp.338, %tmp.351, %tmp.353);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 102 8 ]
+        %tmp.221 = lgetv %dc;
+        %tmp.222 = getv function %tmp.221 :setColor;
+        %tmp.223 = getm $.Toybox.Graphics;
+        %tmp.224 = getv %tmp.223 :COLOR_WHITE;
+        %tmp.225 = getm $.Toybox.Graphics;
+        %tmp.226 = getv %tmp.225 :COLOR_BLACK;
+        invoke %tmp.221 %tmp.222(%tmp.224, %tmp.226);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 103 8 ]
+        %tmp.227 = lgetv %dc;
+        %tmp.228 = getv function %tmp.227 :fillRectangle;
+        %tmp.230 = getv ? :hrRecX;
+        %tmp.232 = getv ? :hrRecWidth;
+        %tmp.233 = add %tmp.230 %tmp.232;
+        %tmp.235 = getv ? :hrRecY;
+        %tmp.237 = getv ? :hrRecWidth;
+        %tmp.239 = getv ? :herRectheight;
+        invoke %tmp.227 %tmp.228(%tmp.233, %tmp.235, %tmp.237, %tmp.239);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 105 8 ]
+        %tmp.240 = lgetv %dc;
+        %tmp.241 = getv function %tmp.240 :setColor;
+        %tmp.242 = getm $.Toybox.Graphics;
+        %tmp.243 = getv %tmp.242 :COLOR_GREEN;
+        %tmp.244 = getm $.Toybox.Graphics;
+        %tmp.245 = getv %tmp.244 :COLOR_BLACK;
+        invoke %tmp.240 %tmp.241(%tmp.243, %tmp.245);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 106 8 ]
+        %tmp.246 = lgetv %dc;
+        %tmp.247 = getv function %tmp.246 :fillRectangle;
+        %tmp.249 = getv ? :hrRecX;
+        %tmp.251 = getv ? :hrRecWidth;
+        %tmp.252 = 2;
+        %tmp.253 = mul %tmp.251 %tmp.252;
+        %tmp.254 = add %tmp.249 %tmp.253;
+        %tmp.255 = 5;
+        %tmp.256 = add %tmp.254 %tmp.255;
+        %tmp.258 = getv ? :hrRecY;
+        %tmp.260 = getv ? :hrRecWidth;
+        %tmp.262 = getv ? :herRectheight;
+        invoke %tmp.246 %tmp.247(%tmp.256, %tmp.258, %tmp.260, %tmp.262);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 108 8 ]
+        %tmp.263 = lgetv %dc;
+        %tmp.264 = getv function %tmp.263 :setColor;
+        %tmp.265 = getm $.Toybox.Graphics;
+        %tmp.266 = getv %tmp.265 :COLOR_YELLOW;
+        %tmp.267 = getm $.Toybox.Graphics;
+        %tmp.268 = getv %tmp.267 :COLOR_BLACK;
+        invoke %tmp.263 %tmp.264(%tmp.266, %tmp.268);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 109 8 ]
+        %tmp.269 = lgetv %dc;
+        %tmp.270 = getv function %tmp.269 :fillRectangle;
+        %tmp.272 = getv ? :hrRecX;
+        %tmp.274 = getv ? :hrRecWidth;
+        %tmp.275 = 3;
+        %tmp.276 = mul %tmp.274 %tmp.275;
+        %tmp.277 = add %tmp.272 %tmp.276;
+        %tmp.278 = 10;
+        %tmp.279 = add %tmp.277 %tmp.278;
+        %tmp.281 = getv ? :hrRecY;
+        %tmp.283 = getv ? :hrRecWidth;
+        %tmp.285 = getv ? :herRectheight;
+        invoke %tmp.269 %tmp.270(%tmp.279, %tmp.281, %tmp.283, %tmp.285);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 111 8 ]
+        %tmp.286 = lgetv %dc;
+        %tmp.287 = getv function %tmp.286 :setColor;
+        %tmp.288 = getm $.Toybox.Graphics;
+        %tmp.289 = getv %tmp.288 :COLOR_ORANGE;
+        %tmp.290 = getm $.Toybox.Graphics;
+        %tmp.291 = getv %tmp.290 :COLOR_BLACK;
+        invoke %tmp.286 %tmp.287(%tmp.289, %tmp.291);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 112 8 ]
+        %tmp.292 = lgetv %dc;
+        %tmp.293 = getv function %tmp.292 :fillRectangle;
+        %tmp.295 = getv ? :hrRecX;
+        %tmp.297 = getv ? :hrRecWidth;
+        %tmp.298 = 4;
+        %tmp.299 = mul %tmp.297 %tmp.298;
+        %tmp.300 = add %tmp.295 %tmp.299;
+        %tmp.301 = 15;
+        %tmp.302 = add %tmp.300 %tmp.301;
+        %tmp.304 = getv ? :hrRecY;
+        %tmp.306 = getv ? :hrRecWidth;
+        %tmp.308 = getv ? :herRectheight;
+        invoke %tmp.292 %tmp.293(%tmp.302, %tmp.304, %tmp.306, %tmp.308);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 114 8 ]
+        %tmp.309 = lgetv %dc;
+        %tmp.310 = getv function %tmp.309 :setColor;
+        %tmp.311 = getm $.Toybox.Graphics;
+        %tmp.312 = getv %tmp.311 :COLOR_RED;
+        %tmp.313 = getm $.Toybox.Graphics;
+        %tmp.314 = getv %tmp.313 :COLOR_BLACK;
+        invoke %tmp.309 %tmp.310(%tmp.312, %tmp.314);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 115 8 ]
+        %tmp.315 = lgetv %dc;
+        %tmp.316 = getv function %tmp.315 :fillRectangle;
+        %tmp.318 = getv ? :hrRecX;
+        %tmp.320 = getv ? :hrRecWidth;
+        %tmp.321 = 5;
+        %tmp.322 = mul %tmp.320 %tmp.321;
+        %tmp.323 = add %tmp.318 %tmp.322;
+        %tmp.324 = 20;
+        %tmp.325 = add %tmp.323 %tmp.324;
+        %tmp.327 = getv ? :hrRecY;
+        %tmp.329 = getv ? :hrRecWidth;
+        %tmp.331 = getv ? :herRectheight;
+        invoke %tmp.315 %tmp.316(%tmp.325, %tmp.327, %tmp.329, %tmp.331);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 117 7 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_7_if_stmt:
+        %tmp.333 = getv ? :hrValue;
+        %tmp.334 = null;
+        %tmp.335 = ne %tmp.333 %tmp.334;
+        bf %tmp.335 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_7_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_7_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_26_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 118 8 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_8_if_stmt:
+        %tmp.337 = getv ? :hrValue;
+        %tmp.338 = as %tmp.337 { (!Null) };
+        %tmp.339 = getv function %tmp.338 :toNumber;
+        %tmp.340 = invoke %tmp.338 %tmp.339();
+        %tmp.341 = 154;
+        %tmp.342 = gte %tmp.340 %tmp.341;
+        bf %tmp.342 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_8_if_false;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_8_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_37_start:
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 119 16 ]
-        %tmp.354 = getm $.Toybox.System;
-        %tmp.355 = getv function %tmp.354 :println;
-        %tmp.357 = getv ? :hrValue;
-        %tmp.358 = getv function %tmp.357 :toNumber;
-        %tmp.359 = invoke %tmp.357 %tmp.358();
-        invoke %tmp.354 %tmp.355(%tmp.359);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_37_stop:
-        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_8_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_8_if_false:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 121 14 ]
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_14_if_stmt:
-        %tmp.361 = getv ? :hrValue;
-        %tmp.362 = getv function %tmp.361 :toNumber;
-        %tmp.363 = invoke %tmp.361 %tmp.362();
-        %tmp.364 = 128;
-        %tmp.365 = gte %tmp.363 %tmp.364;
-        bf %tmp.365 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_14_if_false;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_14_if_true:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_43_start:
+        %tmp.343 = lgetv %dc;
+        %tmp.344 = getv function %tmp.343 :setColor;
+        %tmp.345 = getm $.Toybox.Graphics;
+        %tmp.346 = getv %tmp.345 :COLOR_RED;
+        %tmp.347 = getm $.Toybox.Graphics;
+        %tmp.348 = getv %tmp.347 :COLOR_BLACK;
+        invoke %tmp.343 %tmp.344(%tmp.346, %tmp.348);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 120 16 ]
+        %tmp.349 = lgetv %dc;
+        %tmp.350 = getv function %tmp.349 :fillRectangle;
+        %tmp.352 = getv ? :hrRecX;
+        %tmp.354 = getv ? :hrRecWidth;
+        %tmp.355 = 5;
+        %tmp.356 = mul %tmp.354 %tmp.355;
+        %tmp.357 = add %tmp.352 %tmp.356;
+        %tmp.358 = 20;
+        %tmp.359 = add %tmp.357 %tmp.358;
+        %tmp.361 = getv ? :hrRecY;
+        %tmp.362 = 2;
+        %tmp.363 = sub %tmp.361 %tmp.362;
+        %tmp.365 = getv ? :hrRecWidth;
+        %tmp.367 = getv ? :herRectheight;
+        %tmp.368 = 4;
+        %tmp.369 = add %tmp.367 %tmp.368;
+        invoke %tmp.349 %tmp.350(%tmp.359, %tmp.363, %tmp.365, %tmp.369);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 122 16 ]
-        %tmp.366 = lgetv %dc;
-        %tmp.367 = getv function %tmp.366 :setColor;
-        %tmp.368 = getm $.Toybox.Graphics;
-        %tmp.369 = getv %tmp.368 :COLOR_WHITE;
-        %tmp.370 = getm $.Toybox.Graphics;
-        %tmp.371 = getv %tmp.370 :COLOR_BLACK;
-        invoke %tmp.366 %tmp.367(%tmp.369, %tmp.371);
+        %tmp.370 = lgetv %dc;
+        %tmp.371 = getv function %tmp.370 :setColor;
+        %tmp.372 = getm $.Toybox.Graphics;
+        %tmp.373 = getv %tmp.372 :COLOR_WHITE;
+        %tmp.374 = getm $.Toybox.Graphics;
+        %tmp.375 = getv %tmp.374 :COLOR_BLACK;
+        invoke %tmp.370 %tmp.371(%tmp.373, %tmp.375);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 123 16 ]
-        %tmp.372 = lgetv %dc;
-        %tmp.373 = getv function %tmp.372 :fillRectangle;
-        %tmp.375 = getv ? :hrRecX;
-        %tmp.377 = getv ? :hrRecWidth;
-        %tmp.378 = add %tmp.375 %tmp.377;
-        %tmp.380 = getv ? :hrRecY;
-        %tmp.382 = getv ? :hrRecWidth;
-        %tmp.384 = getv ? :herRectheight;
-        invoke %tmp.372 %tmp.373(%tmp.378, %tmp.380, %tmp.382, %tmp.384);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 125 16 ]
-        %tmp.385 = lgetv %dc;
-        %tmp.386 = getv function %tmp.385 :setColor;
-        %tmp.387 = getm $.Toybox.Graphics;
-        %tmp.388 = getv %tmp.387 :COLOR_GREEN;
-        %tmp.389 = getm $.Toybox.Graphics;
-        %tmp.390 = getv %tmp.389 :COLOR_BLACK;
-        invoke %tmp.385 %tmp.386(%tmp.388, %tmp.390);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 126 16 ]
-        %tmp.391 = lgetv %dc;
-        %tmp.392 = getv function %tmp.391 :fillRectangle;
-        %tmp.394 = getv ? :hrRecX;
-        %tmp.396 = getv ? :hrRecWidth;
-        %tmp.397 = 2;
-        %tmp.398 = mul %tmp.396 %tmp.397;
-        %tmp.399 = add %tmp.394 %tmp.398;
-        %tmp.400 = 5;
-        %tmp.401 = add %tmp.399 %tmp.400;
-        %tmp.403 = getv ? :hrRecY;
-        %tmp.405 = getv ? :hrRecWidth;
-        %tmp.407 = getv ? :herRectheight;
-        invoke %tmp.391 %tmp.392(%tmp.401, %tmp.403, %tmp.405, %tmp.407);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 128 16 ]
-        %tmp.408 = lgetv %dc;
-        %tmp.409 = getv function %tmp.408 :setColor;
-        %tmp.410 = getm $.Toybox.Graphics;
-        %tmp.411 = getv %tmp.410 :COLOR_YELLOW;
+        %tmp.376 = lgetv %dc;
+        %tmp.377 = getv function %tmp.376 :drawText;
+        %tmp.379 = getv ? :hrRecX;
+        %tmp.381 = getv ? :hrRecWidth;
+        %tmp.382 = 5;
+        %tmp.383 = mul %tmp.381 %tmp.382;
+        %tmp.384 = add %tmp.379 %tmp.383;
+        %tmp.385 = 20;
+        %tmp.386 = add %tmp.384 %tmp.385;
+        %tmp.388 = getv ? :hrRecWidth;
+        %tmp.389 = 26;
+        %tmp.390 = 180;
+        %tmp.392 = getv ? :hrValue;
+        %tmp.393 = getv function %tmp.392 :toNumber;
+        %tmp.394 = invoke %tmp.392 %tmp.393();
+        %tmp.395 = sub %tmp.390 %tmp.394;
+        %tmp.396 = sub %tmp.389 %tmp.395;
+        %tmp.397 = mul %tmp.388 %tmp.396;
+        %tmp.398 = 26;
+        %tmp.399 = div %tmp.397 %tmp.398;
+        %tmp.400 = add %tmp.386 %tmp.399;
+        %tmp.402 = getv ? :hrRecY;
+        %tmp.403 = 2;
+        %tmp.404 = sub %tmp.402 %tmp.403;
+        %tmp.406 = getv ? :herRectheight;
+        %tmp.407 = add %tmp.404 %tmp.406;
+        %tmp.408 = 4;
+        %tmp.409 = add %tmp.407 %tmp.408;
+        %tmp.410 = 15;
+        %tmp.411 = add %tmp.409 %tmp.410;
         %tmp.412 = getm $.Toybox.Graphics;
-        %tmp.413 = getv %tmp.412 :COLOR_BLACK;
-        invoke %tmp.408 %tmp.409(%tmp.411, %tmp.413);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 129 16 ]
-        %tmp.414 = lgetv %dc;
-        %tmp.415 = getv function %tmp.414 :fillRectangle;
-        %tmp.417 = getv ? :hrRecX;
-        %tmp.419 = getv ? :hrRecWidth;
-        %tmp.420 = 3;
-        %tmp.421 = mul %tmp.419 %tmp.420;
-        %tmp.422 = add %tmp.417 %tmp.421;
-        %tmp.423 = 10;
-        %tmp.424 = add %tmp.422 %tmp.423;
-        %tmp.426 = getv ? :hrRecY;
-        %tmp.428 = getv ? :hrRecWidth;
-        %tmp.430 = getv ? :herRectheight;
-        invoke %tmp.414 %tmp.415(%tmp.424, %tmp.426, %tmp.428, %tmp.430);
+        %tmp.413 = getv %tmp.412 :FONT_XTINY;
+        %tmp.415 = getv ? :hrValue;
+        %tmp.416 = getv function %tmp.415 :format;
+        %tmp.417 = "%d";
+        %tmp.418 = invoke %tmp.415 %tmp.416(%tmp.417);
+        %tmp.419 = getm $.Toybox.Graphics;
+        %tmp.420 = getv %tmp.419 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.376 %tmp.377(%tmp.400, %tmp.411, %tmp.413, %tmp.418, %tmp.420);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_37_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_8_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_8_if_false:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 128 14 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_14_if_stmt:
+        %tmp.422 = getv ? :hrValue;
+        %tmp.423 = getv function %tmp.422 :toNumber;
+        %tmp.424 = invoke %tmp.422 %tmp.423();
+        %tmp.425 = 128;
+        %tmp.426 = gte %tmp.424 %tmp.425;
+        bf %tmp.426 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_14_if_false;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_14_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_43_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 130 16 ]
+        %tmp.427 = lgetv %dc;
+        %tmp.428 = getv function %tmp.427 :setColor;
+        %tmp.429 = getm $.Toybox.Graphics;
+        %tmp.430 = getv %tmp.429 :COLOR_ORANGE;
+        %tmp.431 = getm $.Toybox.Graphics;
+        %tmp.432 = getv %tmp.431 :COLOR_BLACK;
+        invoke %tmp.427 %tmp.428(%tmp.430, %tmp.432);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 131 16 ]
-        %tmp.431 = lgetv %dc;
-        %tmp.432 = getv function %tmp.431 :setColor;
-        %tmp.433 = getm $.Toybox.Graphics;
-        %tmp.434 = getv %tmp.433 :COLOR_ORANGE;
-        %tmp.435 = getm $.Toybox.Graphics;
-        %tmp.436 = getv %tmp.435 :COLOR_BLACK;
-        invoke %tmp.431 %tmp.432(%tmp.434, %tmp.436);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 132 16 ]
-        %tmp.437 = lgetv %dc;
-        %tmp.438 = getv function %tmp.437 :fillRectangle;
-        %tmp.440 = getv ? :hrRecX;
-        %tmp.442 = getv ? :hrRecWidth;
-        %tmp.443 = 4;
-        %tmp.444 = mul %tmp.442 %tmp.443;
-        %tmp.445 = add %tmp.440 %tmp.444;
-        %tmp.446 = 15;
-        %tmp.447 = add %tmp.445 %tmp.446;
-        %tmp.449 = getv ? :hrRecY;
-        %tmp.451 = getv ? :hrRecWidth;
-        %tmp.452 = 26;
-        %tmp.453 = 154;
-        %tmp.455 = getv ? :hrValue;
-        %tmp.456 = getv function %tmp.455 :toNumber;
-        %tmp.457 = invoke %tmp.455 %tmp.456();
-        %tmp.458 = sub %tmp.453 %tmp.457;
-        %tmp.459 = sub %tmp.452 %tmp.458;
-        %tmp.460 = mul %tmp.451 %tmp.459;
-        %tmp.461 = 26;
-        %tmp.462 = div %tmp.460 %tmp.461;
-        %tmp.464 = getv ? :herRectheight;
-        invoke %tmp.437 %tmp.438(%tmp.447, %tmp.449, %tmp.462, %tmp.464);
+        %tmp.433 = lgetv %dc;
+        %tmp.434 = getv function %tmp.433 :fillRectangle;
+        %tmp.436 = getv ? :hrRecX;
+        %tmp.438 = getv ? :hrRecWidth;
+        %tmp.439 = 4;
+        %tmp.440 = mul %tmp.438 %tmp.439;
+        %tmp.441 = add %tmp.436 %tmp.440;
+        %tmp.442 = 15;
+        %tmp.443 = add %tmp.441 %tmp.442;
+        %tmp.445 = getv ? :hrRecY;
+        %tmp.446 = 2;
+        %tmp.447 = sub %tmp.445 %tmp.446;
+        %tmp.449 = getv ? :hrRecWidth;
+        %tmp.451 = getv ? :herRectheight;
+        %tmp.452 = 4;
+        %tmp.453 = add %tmp.451 %tmp.452;
+        invoke %tmp.433 %tmp.434(%tmp.443, %tmp.447, %tmp.449, %tmp.453);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 133 16 ]
-        %tmp.465 = getm $.Toybox.System;
-        %tmp.466 = getv function %tmp.465 :println;
-        %tmp.468 = getv ? :hrValue;
-        %tmp.469 = getv function %tmp.468 :toNumber;
-        %tmp.470 = invoke %tmp.468 %tmp.469();
-        invoke %tmp.465 %tmp.466(%tmp.470);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_43_stop:
-        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_14_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_14_if_false:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 135 14 ]
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_14_if_stmt:
-        %tmp.472 = getv ? :hrValue;
-        %tmp.473 = getv function %tmp.472 :toNumber;
-        %tmp.474 = invoke %tmp.472 %tmp.473();
-        %tmp.475 = 102;
-        %tmp.476 = gte %tmp.474 %tmp.475;
-        bf %tmp.476 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_14_if_false;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_14_if_true:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_43_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 136 16 ]
-        %tmp.477 = lgetv %dc;
-        %tmp.478 = getv function %tmp.477 :setColor;
-        %tmp.479 = getm $.Toybox.Graphics;
-        %tmp.480 = getv %tmp.479 :COLOR_WHITE;
-        %tmp.481 = getm $.Toybox.Graphics;
-        %tmp.482 = getv %tmp.481 :COLOR_BLACK;
-        invoke %tmp.477 %tmp.478(%tmp.480, %tmp.482);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 137 16 ]
-        %tmp.483 = lgetv %dc;
-        %tmp.484 = getv function %tmp.483 :fillRectangle;
-        %tmp.486 = getv ? :hrRecX;
-        %tmp.488 = getv ? :hrRecWidth;
-        %tmp.489 = add %tmp.486 %tmp.488;
-        %tmp.491 = getv ? :hrRecY;
-        %tmp.493 = getv ? :hrRecWidth;
-        %tmp.495 = getv ? :herRectheight;
-        invoke %tmp.483 %tmp.484(%tmp.489, %tmp.491, %tmp.493, %tmp.495);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 139 16 ]
-        %tmp.496 = lgetv %dc;
-        %tmp.497 = getv function %tmp.496 :setColor;
-        %tmp.498 = getm $.Toybox.Graphics;
-        %tmp.499 = getv %tmp.498 :COLOR_GREEN;
-        %tmp.500 = getm $.Toybox.Graphics;
-        %tmp.501 = getv %tmp.500 :COLOR_BLACK;
-        invoke %tmp.496 %tmp.497(%tmp.499, %tmp.501);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 140 16 ]
-        %tmp.502 = lgetv %dc;
-        %tmp.503 = getv function %tmp.502 :fillRectangle;
-        %tmp.505 = getv ? :hrRecX;
-        %tmp.507 = getv ? :hrRecWidth;
-        %tmp.508 = 2;
-        %tmp.509 = mul %tmp.507 %tmp.508;
-        %tmp.510 = add %tmp.505 %tmp.509;
-        %tmp.511 = 5;
-        %tmp.512 = add %tmp.510 %tmp.511;
-        %tmp.514 = getv ? :hrRecY;
-        %tmp.516 = getv ? :hrRecWidth;
-        %tmp.518 = getv ? :herRectheight;
-        invoke %tmp.502 %tmp.503(%tmp.512, %tmp.514, %tmp.516, %tmp.518);
+        %tmp.454 = lgetv %dc;
+        %tmp.455 = getv function %tmp.454 :setColor;
+        %tmp.456 = getm $.Toybox.Graphics;
+        %tmp.457 = getv %tmp.456 :COLOR_WHITE;
+        %tmp.458 = getm $.Toybox.Graphics;
+        %tmp.459 = getv %tmp.458 :COLOR_BLACK;
+        invoke %tmp.454 %tmp.455(%tmp.457, %tmp.459);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 134 16 ]
+        %tmp.460 = lgetv %dc;
+        %tmp.461 = getv function %tmp.460 :drawText;
+        %tmp.463 = getv ? :hrRecX;
+        %tmp.465 = getv ? :hrRecWidth;
+        %tmp.466 = 4;
+        %tmp.467 = mul %tmp.465 %tmp.466;
+        %tmp.468 = add %tmp.463 %tmp.467;
+        %tmp.469 = 15;
+        %tmp.470 = add %tmp.468 %tmp.469;
+        %tmp.472 = getv ? :hrRecWidth;
+        %tmp.473 = 26;
+        %tmp.474 = 154;
+        %tmp.476 = getv ? :hrValue;
+        %tmp.477 = getv function %tmp.476 :toNumber;
+        %tmp.478 = invoke %tmp.476 %tmp.477();
+        %tmp.479 = sub %tmp.474 %tmp.478;
+        %tmp.480 = sub %tmp.473 %tmp.479;
+        %tmp.481 = mul %tmp.472 %tmp.480;
+        %tmp.482 = 26;
+        %tmp.483 = div %tmp.481 %tmp.482;
+        %tmp.484 = add %tmp.470 %tmp.483;
+        %tmp.486 = getv ? :hrRecY;
+        %tmp.487 = 2;
+        %tmp.488 = sub %tmp.486 %tmp.487;
+        %tmp.490 = getv ? :herRectheight;
+        %tmp.491 = add %tmp.488 %tmp.490;
+        %tmp.492 = 4;
+        %tmp.493 = add %tmp.491 %tmp.492;
+        %tmp.494 = 2;
+        %tmp.495 = add %tmp.493 %tmp.494;
+        %tmp.496 = getm $.Toybox.Graphics;
+        %tmp.497 = getv %tmp.496 :FONT_XTINY;
+        %tmp.499 = getv ? :hrValue;
+        %tmp.500 = getv function %tmp.499 :format;
+        %tmp.501 = "%d";
+        %tmp.502 = invoke %tmp.499 %tmp.500(%tmp.501);
+        %tmp.503 = getm $.Toybox.Graphics;
+        %tmp.504 = getv %tmp.503 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.460 %tmp.461(%tmp.484, %tmp.495, %tmp.497, %tmp.502, %tmp.504);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_43_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_14_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_14_if_false:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 139 14 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_14_if_stmt:
+        %tmp.506 = getv ? :hrValue;
+        %tmp.507 = getv function %tmp.506 :toNumber;
+        %tmp.508 = invoke %tmp.506 %tmp.507();
+        %tmp.509 = 102;
+        %tmp.510 = gte %tmp.508 %tmp.509;
+        bf %tmp.510 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_14_if_false;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_14_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_43_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 141 16 ]
+        %tmp.511 = lgetv %dc;
+        %tmp.512 = getv function %tmp.511 :setColor;
+        %tmp.513 = getm $.Toybox.Graphics;
+        %tmp.514 = getv %tmp.513 :COLOR_YELLOW;
+        %tmp.515 = getm $.Toybox.Graphics;
+        %tmp.516 = getv %tmp.515 :COLOR_BLACK;
+        invoke %tmp.511 %tmp.512(%tmp.514, %tmp.516);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 142 16 ]
-        %tmp.519 = lgetv %dc;
-        %tmp.520 = getv function %tmp.519 :setColor;
-        %tmp.521 = getm $.Toybox.Graphics;
-        %tmp.522 = getv %tmp.521 :COLOR_YELLOW;
-        %tmp.523 = getm $.Toybox.Graphics;
-        %tmp.524 = getv %tmp.523 :COLOR_BLACK;
-        invoke %tmp.519 %tmp.520(%tmp.522, %tmp.524);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 143 16 ]
-        %tmp.525 = lgetv %dc;
-        %tmp.526 = getv function %tmp.525 :fillRectangle;
-        %tmp.528 = getv ? :hrRecX;
-        %tmp.530 = getv ? :hrRecWidth;
-        %tmp.531 = 3;
-        %tmp.532 = mul %tmp.530 %tmp.531;
-        %tmp.533 = add %tmp.528 %tmp.532;
-        %tmp.534 = 10;
-        %tmp.535 = add %tmp.533 %tmp.534;
-        %tmp.537 = getv ? :hrRecY;
-        %tmp.539 = getv ? :hrRecWidth;
-        %tmp.540 = 26;
-        %tmp.541 = 128;
-        %tmp.543 = getv ? :hrValue;
-        %tmp.544 = getv function %tmp.543 :toNumber;
-        %tmp.545 = invoke %tmp.543 %tmp.544();
-        %tmp.546 = sub %tmp.541 %tmp.545;
-        %tmp.547 = sub %tmp.540 %tmp.546;
-        %tmp.548 = mul %tmp.539 %tmp.547;
-        %tmp.549 = 26;
-        %tmp.550 = div %tmp.548 %tmp.549;
-        %tmp.552 = getv ? :herRectheight;
-        invoke %tmp.525 %tmp.526(%tmp.535, %tmp.537, %tmp.550, %tmp.552);
+        %tmp.517 = lgetv %dc;
+        %tmp.518 = getv function %tmp.517 :fillRectangle;
+        %tmp.520 = getv ? :hrRecX;
+        %tmp.522 = getv ? :hrRecWidth;
+        %tmp.523 = 3;
+        %tmp.524 = mul %tmp.522 %tmp.523;
+        %tmp.525 = add %tmp.520 %tmp.524;
+        %tmp.526 = 10;
+        %tmp.527 = add %tmp.525 %tmp.526;
+        %tmp.529 = getv ? :hrRecY;
+        %tmp.530 = 2;
+        %tmp.531 = sub %tmp.529 %tmp.530;
+        %tmp.533 = getv ? :hrRecWidth;
+        %tmp.535 = getv ? :herRectheight;
+        %tmp.536 = 4;
+        %tmp.537 = add %tmp.535 %tmp.536;
+        invoke %tmp.517 %tmp.518(%tmp.527, %tmp.531, %tmp.533, %tmp.537);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 144 16 ]
-        %tmp.553 = getm $.Toybox.System;
-        %tmp.554 = getv function %tmp.553 :println;
-        %tmp.556 = getv ? :hrValue;
-        %tmp.557 = getv function %tmp.556 :toNumber;
-        %tmp.558 = invoke %tmp.556 %tmp.557();
-        invoke %tmp.553 %tmp.554(%tmp.558);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_43_stop:
-        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_14_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_14_if_false:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 146 14 ]
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_14_if_stmt:
+        %tmp.538 = lgetv %dc;
+        %tmp.539 = getv function %tmp.538 :setColor;
+        %tmp.540 = getm $.Toybox.Graphics;
+        %tmp.541 = getv %tmp.540 :COLOR_WHITE;
+        %tmp.542 = getm $.Toybox.Graphics;
+        %tmp.543 = getv %tmp.542 :COLOR_BLACK;
+        invoke %tmp.538 %tmp.539(%tmp.541, %tmp.543);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 145 16 ]
+        %tmp.544 = lgetv %dc;
+        %tmp.545 = getv function %tmp.544 :drawText;
+        %tmp.547 = getv ? :hrRecX;
+        %tmp.549 = getv ? :hrRecWidth;
+        %tmp.550 = 3;
+        %tmp.551 = mul %tmp.549 %tmp.550;
+        %tmp.552 = add %tmp.547 %tmp.551;
+        %tmp.553 = 10;
+        %tmp.554 = add %tmp.552 %tmp.553;
+        %tmp.556 = getv ? :hrRecWidth;
+        %tmp.557 = 26;
+        %tmp.558 = 128;
         %tmp.560 = getv ? :hrValue;
         %tmp.561 = getv function %tmp.560 :toNumber;
         %tmp.562 = invoke %tmp.560 %tmp.561();
-        %tmp.563 = 76;
-        %tmp.564 = gte %tmp.562 %tmp.563;
-        bf %tmp.564 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_14_if_false;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_14_if_true:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_42_start:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 147 16 ]
-        %tmp.565 = lgetv %dc;
-        %tmp.566 = getv function %tmp.565 :setColor;
-        %tmp.567 = getm $.Toybox.Graphics;
-        %tmp.568 = getv %tmp.567 :COLOR_WHITE;
-        %tmp.569 = getm $.Toybox.Graphics;
-        %tmp.570 = getv %tmp.569 :COLOR_BLACK;
-        invoke %tmp.565 %tmp.566(%tmp.568, %tmp.570);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 148 16 ]
-        %tmp.571 = lgetv %dc;
-        %tmp.572 = getv function %tmp.571 :fillRectangle;
-        %tmp.574 = getv ? :hrRecX;
-        %tmp.576 = getv ? :hrRecWidth;
-        %tmp.577 = add %tmp.574 %tmp.576;
-        %tmp.579 = getv ? :hrRecY;
-        %tmp.581 = getv ? :hrRecWidth;
-        %tmp.583 = getv ? :herRectheight;
-        invoke %tmp.571 %tmp.572(%tmp.577, %tmp.579, %tmp.581, %tmp.583);
+        %tmp.563 = sub %tmp.558 %tmp.562;
+        %tmp.564 = sub %tmp.557 %tmp.563;
+        %tmp.565 = mul %tmp.556 %tmp.564;
+        %tmp.566 = 26;
+        %tmp.567 = div %tmp.565 %tmp.566;
+        %tmp.568 = add %tmp.554 %tmp.567;
+        %tmp.570 = getv ? :hrRecY;
+        %tmp.571 = 2;
+        %tmp.572 = sub %tmp.570 %tmp.571;
+        %tmp.574 = getv ? :herRectheight;
+        %tmp.575 = add %tmp.572 %tmp.574;
+        %tmp.576 = 4;
+        %tmp.577 = add %tmp.575 %tmp.576;
+        %tmp.578 = 2;
+        %tmp.579 = add %tmp.577 %tmp.578;
+        %tmp.580 = getm $.Toybox.Graphics;
+        %tmp.581 = getv %tmp.580 :FONT_XTINY;
+        %tmp.583 = getv ? :hrValue;
+        %tmp.584 = getv function %tmp.583 :format;
+        %tmp.585 = "%d";
+        %tmp.586 = invoke %tmp.583 %tmp.584(%tmp.585);
+        %tmp.587 = getm $.Toybox.Graphics;
+        %tmp.588 = getv %tmp.587 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.544 %tmp.545(%tmp.568, %tmp.579, %tmp.581, %tmp.586, %tmp.588);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_43_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_14_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_14_if_false:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 148 14 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_14_if_stmt:
+        %tmp.590 = getv ? :hrValue;
+        %tmp.591 = getv function %tmp.590 :toNumber;
+        %tmp.592 = invoke %tmp.590 %tmp.591();
+        %tmp.593 = 76;
+        %tmp.594 = gte %tmp.592 %tmp.593;
+        bf %tmp.594 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_14_if_false;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_14_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_42_start:
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 150 16 ]
-        %tmp.584 = lgetv %dc;
-        %tmp.585 = getv function %tmp.584 :setColor;
-        %tmp.586 = getm $.Toybox.Graphics;
-        %tmp.587 = getv %tmp.586 :COLOR_YELLOW;
-        %tmp.588 = getm $.Toybox.Graphics;
-        %tmp.589 = getv %tmp.588 :COLOR_BLACK;
-        invoke %tmp.584 %tmp.585(%tmp.587, %tmp.589);
+        %tmp.595 = lgetv %dc;
+        %tmp.596 = getv function %tmp.595 :setColor;
+        %tmp.597 = getm $.Toybox.Graphics;
+        %tmp.598 = getv %tmp.597 :COLOR_GREEN;
+        %tmp.599 = getm $.Toybox.Graphics;
+        %tmp.600 = getv %tmp.599 :COLOR_BLACK;
+        invoke %tmp.595 %tmp.596(%tmp.598, %tmp.600);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 151 16 ]
-        %tmp.590 = lgetv %dc;
-        %tmp.591 = getv function %tmp.590 :fillRectangle;
-        %tmp.593 = getv ? :hrRecX;
-        %tmp.595 = getv ? :hrRecWidth;
-        %tmp.596 = 2;
-        %tmp.597 = mul %tmp.595 %tmp.596;
-        %tmp.598 = add %tmp.593 %tmp.597;
-        %tmp.599 = 5;
-        %tmp.600 = add %tmp.598 %tmp.599;
-        %tmp.602 = getv ? :hrRecY;
-        %tmp.604 = getv ? :hrRecWidth;
-        %tmp.605 = 26;
-        %tmp.606 = 102;
-        %tmp.608 = getv ? :hrValue;
-        %tmp.609 = getv function %tmp.608 :toNumber;
-        %tmp.610 = invoke %tmp.608 %tmp.609();
-        %tmp.611 = sub %tmp.606 %tmp.610;
-        %tmp.612 = sub %tmp.605 %tmp.611;
-        %tmp.613 = mul %tmp.604 %tmp.612;
-        %tmp.614 = 26;
-        %tmp.615 = div %tmp.613 %tmp.614;
-        %tmp.617 = getv ? :herRectheight;
-        invoke %tmp.590 %tmp.591(%tmp.600, %tmp.602, %tmp.615, %tmp.617);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 152 16 ]
-        %tmp.618 = getm $.Toybox.System;
-        %tmp.619 = getv function %tmp.618 :println;
-        %tmp.621 = getv ? :hrValue;
-        %tmp.622 = getv function %tmp.621 :toNumber;
-        %tmp.623 = invoke %tmp.621 %tmp.622();
-        invoke %tmp.618 %tmp.619(%tmp.623);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_42_stop:
-        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_14_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_14_if_false:
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 153 14 ]
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_14_if_stmt:
-        %tmp.625 = getv ? :hrValue;
-        %tmp.626 = getv function %tmp.625 :toNumber;
-        %tmp.627 = invoke %tmp.625 %tmp.626();
-        %tmp.628 = 50;
-        %tmp.629 = gte %tmp.627 %tmp.628;
-        bf %tmp.629 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_14_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_14_if_true:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_42_start:
+        %tmp.601 = lgetv %dc;
+        %tmp.602 = getv function %tmp.601 :fillRectangle;
+        %tmp.604 = getv ? :hrRecX;
+        %tmp.606 = getv ? :hrRecWidth;
+        %tmp.607 = 2;
+        %tmp.608 = mul %tmp.606 %tmp.607;
+        %tmp.609 = add %tmp.604 %tmp.608;
+        %tmp.610 = 5;
+        %tmp.611 = add %tmp.609 %tmp.610;
+        %tmp.613 = getv ? :hrRecY;
+        %tmp.614 = 2;
+        %tmp.615 = sub %tmp.613 %tmp.614;
+        %tmp.617 = getv ? :hrRecWidth;
+        %tmp.619 = getv ? :herRectheight;
+        %tmp.620 = 4;
+        %tmp.621 = add %tmp.619 %tmp.620;
+        invoke %tmp.601 %tmp.602(%tmp.611, %tmp.615, %tmp.617, %tmp.621);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 153 16 ]
+        %tmp.622 = lgetv %dc;
+        %tmp.623 = getv function %tmp.622 :setColor;
+        %tmp.624 = getm $.Toybox.Graphics;
+        %tmp.625 = getv %tmp.624 :COLOR_WHITE;
+        %tmp.626 = getm $.Toybox.Graphics;
+        %tmp.627 = getv %tmp.626 :COLOR_BLACK;
+        invoke %tmp.622 %tmp.623(%tmp.625, %tmp.627);
 [ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 154 16 ]
-        %tmp.630 = lgetv %dc;
-        %tmp.631 = getv function %tmp.630 :setColor;
-        %tmp.632 = getm $.Toybox.Graphics;
-        %tmp.633 = getv %tmp.632 :COLOR_WHITE;
-        %tmp.634 = getm $.Toybox.Graphics;
-        %tmp.635 = getv %tmp.634 :COLOR_BLACK;
-        invoke %tmp.630 %tmp.631(%tmp.633, %tmp.635);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 155 16 ]
-        %tmp.636 = lgetv %dc;
-        %tmp.637 = getv function %tmp.636 :fillRectangle;
-        %tmp.639 = getv ? :hrRecX;
-        %tmp.641 = getv ? :hrRecWidth;
-        %tmp.642 = add %tmp.639 %tmp.641;
-        %tmp.644 = getv ? :hrRecY;
-        %tmp.646 = getv ? :hrRecWidth;
-        %tmp.647 = 26;
-        %tmp.648 = 76;
-        %tmp.650 = getv ? :hrValue;
-        %tmp.651 = getv function %tmp.650 :toNumber;
-        %tmp.652 = invoke %tmp.650 %tmp.651();
-        %tmp.653 = sub %tmp.648 %tmp.652;
-        %tmp.654 = sub %tmp.647 %tmp.653;
-        %tmp.655 = mul %tmp.646 %tmp.654;
-        %tmp.656 = 26;
-        %tmp.657 = div %tmp.655 %tmp.656;
-        %tmp.659 = getv ? :herRectheight;
-        invoke %tmp.636 %tmp.637(%tmp.642, %tmp.644, %tmp.657, %tmp.659);
-[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 156 16 ]
-        %tmp.660 = getm $.Toybox.System;
-        %tmp.661 = getv function %tmp.660 :println;
-        %tmp.663 = getv ? :hrValue;
-        %tmp.664 = getv function %tmp.663 :toNumber;
-        %tmp.665 = invoke %tmp.663 %tmp.664();
-        invoke %tmp.660 %tmp.661(%tmp.665);
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_42_stop:
-        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_14_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_153_14_if_end:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_146_14_if_end:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_135_14_if_end:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_121_14_if_end:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_104_8_if_end:
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_26_stop:
-        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_7_if_end;
-C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_103_7_if_end:
+        %tmp.628 = lgetv %dc;
+        %tmp.629 = getv function %tmp.628 :drawText;
+        %tmp.631 = getv ? :hrRecX;
+        %tmp.633 = getv ? :hrRecWidth;
+        %tmp.634 = 2;
+        %tmp.635 = mul %tmp.633 %tmp.634;
+        %tmp.636 = add %tmp.631 %tmp.635;
+        %tmp.637 = 5;
+        %tmp.638 = add %tmp.636 %tmp.637;
+        %tmp.640 = getv ? :hrRecWidth;
+        %tmp.641 = 26;
+        %tmp.642 = 102;
+        %tmp.644 = getv ? :hrValue;
+        %tmp.645 = getv function %tmp.644 :toNumber;
+        %tmp.646 = invoke %tmp.644 %tmp.645();
+        %tmp.647 = sub %tmp.642 %tmp.646;
+        %tmp.648 = sub %tmp.641 %tmp.647;
+        %tmp.649 = mul %tmp.640 %tmp.648;
+        %tmp.650 = 26;
+        %tmp.651 = div %tmp.649 %tmp.650;
+        %tmp.652 = add %tmp.638 %tmp.651;
+        %tmp.654 = getv ? :hrRecY;
+        %tmp.655 = 2;
+        %tmp.656 = sub %tmp.654 %tmp.655;
+        %tmp.658 = getv ? :herRectheight;
+        %tmp.659 = add %tmp.656 %tmp.658;
+        %tmp.660 = 4;
+        %tmp.661 = add %tmp.659 %tmp.660;
+        %tmp.662 = 2;
+        %tmp.663 = add %tmp.661 %tmp.662;
+        %tmp.664 = getm $.Toybox.Graphics;
+        %tmp.665 = getv %tmp.664 :FONT_XTINY;
+        %tmp.667 = getv ? :hrValue;
+        %tmp.668 = getv function %tmp.667 :format;
+        %tmp.669 = "%d";
+        %tmp.670 = invoke %tmp.667 %tmp.668(%tmp.669);
+        %tmp.671 = getm $.Toybox.Graphics;
+        %tmp.672 = getv %tmp.671 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.628 %tmp.629(%tmp.652, %tmp.663, %tmp.665, %tmp.670, %tmp.672);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_42_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_14_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_14_if_false:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 157 14 ]
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_14_if_stmt:
+        %tmp.674 = getv ? :hrValue;
+        %tmp.675 = getv function %tmp.674 :toNumber;
+        %tmp.676 = invoke %tmp.674 %tmp.675();
+        %tmp.677 = 50;
+        %tmp.678 = gte %tmp.676 %tmp.677;
+        bf %tmp.678 @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_14_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_14_if_true:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_42_start:
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 158 16 ]
+        %tmp.679 = lgetv %dc;
+        %tmp.680 = getv function %tmp.679 :setColor;
+        %tmp.681 = getm $.Toybox.Graphics;
+        %tmp.682 = getv %tmp.681 :COLOR_WHITE;
+        %tmp.683 = getm $.Toybox.Graphics;
+        %tmp.684 = getv %tmp.683 :COLOR_BLACK;
+        invoke %tmp.679 %tmp.680(%tmp.682, %tmp.684);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 159 16 ]
+        %tmp.685 = lgetv %dc;
+        %tmp.686 = getv function %tmp.685 :fillRectangle;
+        %tmp.688 = getv ? :hrRecX;
+        %tmp.690 = getv ? :hrRecWidth;
+        %tmp.691 = add %tmp.688 %tmp.690;
+        %tmp.693 = getv ? :hrRecY;
+        %tmp.694 = 2;
+        %tmp.695 = sub %tmp.693 %tmp.694;
+        %tmp.697 = getv ? :hrRecWidth;
+        %tmp.699 = getv ? :herRectheight;
+        %tmp.700 = 4;
+        %tmp.701 = add %tmp.699 %tmp.700;
+        invoke %tmp.685 %tmp.686(%tmp.691, %tmp.695, %tmp.697, %tmp.701);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 161 16 ]
+        %tmp.702 = lgetv %dc;
+        %tmp.703 = getv function %tmp.702 :setColor;
+        %tmp.704 = getm $.Toybox.Graphics;
+        %tmp.705 = getv %tmp.704 :COLOR_WHITE;
+        %tmp.706 = getm $.Toybox.Graphics;
+        %tmp.707 = getv %tmp.706 :COLOR_BLACK;
+        invoke %tmp.702 %tmp.703(%tmp.705, %tmp.707);
+[ "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc" 162 16 ]
+        %tmp.708 = lgetv %dc;
+        %tmp.709 = getv function %tmp.708 :drawText;
+        %tmp.711 = getv ? :hrRecX;
+        %tmp.713 = getv ? :hrRecWidth;
+        %tmp.714 = add %tmp.711 %tmp.713;
+        %tmp.716 = getv ? :hrRecWidth;
+        %tmp.717 = 26;
+        %tmp.718 = 76;
+        %tmp.720 = getv ? :hrValue;
+        %tmp.721 = getv function %tmp.720 :toNumber;
+        %tmp.722 = invoke %tmp.720 %tmp.721();
+        %tmp.723 = sub %tmp.718 %tmp.722;
+        %tmp.724 = sub %tmp.717 %tmp.723;
+        %tmp.725 = mul %tmp.716 %tmp.724;
+        %tmp.726 = 26;
+        %tmp.727 = div %tmp.725 %tmp.726;
+        %tmp.728 = add %tmp.714 %tmp.727;
+        %tmp.730 = getv ? :hrRecY;
+        %tmp.731 = 2;
+        %tmp.732 = sub %tmp.730 %tmp.731;
+        %tmp.734 = getv ? :herRectheight;
+        %tmp.735 = add %tmp.732 %tmp.734;
+        %tmp.736 = 4;
+        %tmp.737 = add %tmp.735 %tmp.736;
+        %tmp.738 = 2;
+        %tmp.739 = add %tmp.737 %tmp.738;
+        %tmp.740 = getm $.Toybox.Graphics;
+        %tmp.741 = getv %tmp.740 :FONT_XTINY;
+        %tmp.743 = getv ? :hrValue;
+        %tmp.744 = getv function %tmp.743 :format;
+        %tmp.745 = "%d";
+        %tmp.746 = invoke %tmp.743 %tmp.744(%tmp.745);
+        %tmp.747 = getm $.Toybox.Graphics;
+        %tmp.748 = getv %tmp.747 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.708 %tmp.709(%tmp.728, %tmp.739, %tmp.741, %tmp.746, %tmp.748);
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_42_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_14_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_157_14_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_148_14_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_139_14_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_128_14_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_118_8_if_end:
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_26_stop:
+        goto @C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_7_if_end;
+C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_117_7_if_end:
 C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fenix6WatchFaceView_mc_50_40_stop:
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 166; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 175; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 170; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 179; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 174; ]
+    [ @file = "C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\source\Fenix6WatchFaceView.mc"; @line = 183; ]
     function onEnterSleep() as Void {
     }
 }
