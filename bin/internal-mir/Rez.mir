@@ -193,7 +193,7 @@ Rez_mc_17_69_start:
             %tmp.158 = aputv %tmp.157 %tmp.154 %tmp.156;
             %tmp.160 = const :locX;
             %tmp.161 = 260;
-            %tmp.162 = 60;
+            %tmp.162 = 56;
             %tmp.163 = 100.0;
             %tmp.164 = div %tmp.162 %tmp.163;
             %tmp.165 = mul %tmp.161 %tmp.164;

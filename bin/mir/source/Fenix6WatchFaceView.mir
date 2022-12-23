@@ -569,7 +569,7 @@ C_Neurozone_connectiq_sdk_manager_windows_Garmin_Apps_Fenix6WatchFace_source_Fen
         %tmp.407 = add %tmp.404 %tmp.406;
         %tmp.408 = 4;
         %tmp.409 = add %tmp.407 %tmp.408;
-        %tmp.410 = 15;
+        %tmp.410 = 2;
         %tmp.411 = add %tmp.409 %tmp.410;
         %tmp.412 = getm $.Toybox.Graphics;
         %tmp.413 = getv %tmp.412 :FONT_XTINY;
