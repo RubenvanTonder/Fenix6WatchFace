@@ -8,9 +8,16 @@
     color="Graphics.COLOR_WHITE" />
 
     <label id="DayOfWeek"
-    x="84%"
-    y="47.5%"
-    font="Graphics.FONT_MEDIUM"
+    x="80%"
+    y="50%"
+    font="Graphics.FONT_TINY"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+
+    <label id="DayOfMonth"
+    x="240"
+    y="130"
+    font="Graphics.FONT_TINY"
     justification="Graphics.TEXT_JUSTIFY_CENTER"
     color="Graphics.COLOR_WHITE" />
 
@@ -21,10 +28,25 @@
     justification="Graphics.TEXT_JUSTIFY_CENTER"
     color="Graphics.COLOR_WHITE" />
 
-    <label id="Cals"
-    x="56%"
+    <label id="hrValue"
+    x="80%"
     y="60%"
     font="Graphics.FONT_XTINY"
     justification="Graphics.TEXT_JUSTIFY_CENTER"
     color="Graphics.COLOR_WHITE" />
+
+    <label id="Cals"
+    x="52%"
+    y="60%"
+    font="Graphics.FONT_XTINY"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE" />
+
+    <label id="Goat"
+    x="129"
+    y="10"
+    font="Graphics.FONT_XTINY"
+    justification="Graphics.TEXT_JUSTIFY_CENTER"
+    color="Graphics.COLOR_WHITE"
+    text = "Jean the Goat" />
 </layout>

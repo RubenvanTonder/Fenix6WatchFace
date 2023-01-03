@@ -2,112 +2,115 @@
 <debugInfo>
 <manifest filename="C:\Neurozone\connectiq-sdk-manager-windows\Garmin Apps\Fenix6WatchFace\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="1" lineNum="11" parent="globals/Fenix6WatchFaceView" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="5" lineNum="39" parent="globals/Fenix6WatchFaceView" pc="268435479" symbol="onLayout"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="5" lineNum="40" parent="globals/Fenix6WatchFaceView" pc="268435481" symbol="onLayout"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="32" parent="globals/Fenix6WatchFaceView" pc="268435523" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="33" parent="globals/Fenix6WatchFaceView" pc="268435525" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="34" parent="globals/Fenix6WatchFaceView" pc="268435543" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="50" parent="globals/Fenix6WatchFaceView" pc="268435557" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="53" parent="globals/Fenix6WatchFaceView" pc="268435561" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="54" parent="globals/Fenix6WatchFaceView" pc="268435578" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="55" parent="globals/Fenix6WatchFaceView" pc="268435652" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="56" parent="globals/Fenix6WatchFaceView" pc="268435680" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="59" parent="globals/Fenix6WatchFaceView" pc="268435694" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="60" parent="globals/Fenix6WatchFaceView" pc="268435711" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="61" parent="globals/Fenix6WatchFaceView" pc="268435741" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="64" parent="globals/Fenix6WatchFaceView" pc="268435757" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="65" parent="globals/Fenix6WatchFaceView" pc="268435788" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="66" parent="globals/Fenix6WatchFaceView" pc="268435816" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="67" parent="globals/Fenix6WatchFaceView" pc="268435846" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="70" parent="globals/Fenix6WatchFaceView" pc="268435860" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="71" parent="globals/Fenix6WatchFaceView" pc="268435891" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="72" parent="globals/Fenix6WatchFaceView" pc="268435919" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="73" parent="globals/Fenix6WatchFaceView" pc="268435949" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="76" parent="globals/Fenix6WatchFaceView" pc="268435963" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="79" parent="globals/Fenix6WatchFaceView" pc="268435992" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="80" parent="globals/Fenix6WatchFaceView" pc="268436031" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="81" parent="globals/Fenix6WatchFaceView" pc="268436059" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="85" parent="globals/Fenix6WatchFaceView" pc="268436183" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="87" parent="globals/Fenix6WatchFaceView" pc="268436207" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="88" parent="globals/Fenix6WatchFaceView" pc="268436229" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="91" parent="globals/Fenix6WatchFaceView" pc="268436273" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="92" parent="globals/Fenix6WatchFaceView" pc="268436295" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="94" parent="globals/Fenix6WatchFaceView" pc="268436339" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="95" parent="globals/Fenix6WatchFaceView" pc="268436356" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="96" parent="globals/Fenix6WatchFaceView" pc="268436381" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="97" parent="globals/Fenix6WatchFaceView" pc="268436398" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="99" parent="globals/Fenix6WatchFaceView" pc="268436423" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="101" parent="globals/Fenix6WatchFaceView" pc="268436445" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="102" parent="globals/Fenix6WatchFaceView" pc="268436528" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="103" parent="globals/Fenix6WatchFaceView" pc="268436550" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="105" parent="globals/Fenix6WatchFaceView" pc="268436603" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="106" parent="globals/Fenix6WatchFaceView" pc="268436625" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="108" parent="globals/Fenix6WatchFaceView" pc="268436690" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="109" parent="globals/Fenix6WatchFaceView" pc="268436712" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="111" parent="globals/Fenix6WatchFaceView" pc="268436777" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="112" parent="globals/Fenix6WatchFaceView" pc="268436799" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="114" parent="globals/Fenix6WatchFaceView" pc="268436864" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="115" parent="globals/Fenix6WatchFaceView" pc="268436886" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="117" parent="globals/Fenix6WatchFaceView" pc="268436951" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="118" parent="globals/Fenix6WatchFaceView" pc="268436964" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="119" parent="globals/Fenix6WatchFaceView" pc="268436990" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="120" parent="globals/Fenix6WatchFaceView" pc="268437012" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="122" parent="globals/Fenix6WatchFaceView" pc="268437089" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="123" parent="globals/Fenix6WatchFaceView" pc="268437111" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="128" parent="globals/Fenix6WatchFaceView" pc="268437267" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="130" parent="globals/Fenix6WatchFaceView" pc="268437293" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="131" parent="globals/Fenix6WatchFaceView" pc="268437315" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="133" parent="globals/Fenix6WatchFaceView" pc="268437392" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="134" parent="globals/Fenix6WatchFaceView" pc="268437414" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="139" parent="globals/Fenix6WatchFaceView" pc="268437570" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="141" parent="globals/Fenix6WatchFaceView" pc="268437596" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="142" parent="globals/Fenix6WatchFaceView" pc="268437618" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="144" parent="globals/Fenix6WatchFaceView" pc="268437695" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="145" parent="globals/Fenix6WatchFaceView" pc="268437717" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="148" parent="globals/Fenix6WatchFaceView" pc="268437873" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="150" parent="globals/Fenix6WatchFaceView" pc="268437899" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="151" parent="globals/Fenix6WatchFaceView" pc="268437921" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="153" parent="globals/Fenix6WatchFaceView" pc="268437998" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="154" parent="globals/Fenix6WatchFaceView" pc="268438020" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="157" parent="globals/Fenix6WatchFaceView" pc="268438176" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="158" parent="globals/Fenix6WatchFaceView" pc="268438202" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="159" parent="globals/Fenix6WatchFaceView" pc="268438224" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="161" parent="globals/Fenix6WatchFaceView" pc="268438289" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="162" parent="globals/Fenix6WatchFaceView" pc="268438311" symbol="onUpdate"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="9" lineNum="26" parent="globals" pc="268438459" symbol="getApp"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="9" lineNum="27" parent="globals" pc="268438469" symbol="getApp"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="10" lineNum="5" parent="globals/Fenix6WatchFaceApp" pc="268438485" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="11" lineNum="12" parent="globals/Fenix6WatchFaceApp" pc="268438504" symbol="onStart"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="12" lineNum="20" parent="globals/Fenix6WatchFaceApp" pc="268438507" symbol="getInitialView"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="12" lineNum="21" parent="globals/Fenix6WatchFaceApp" pc="268438509" symbol="getInitialView"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="13" lineNum="7" parent="globals/Fenix6WatchFaceApp" pc="268438550" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="13" lineNum="8" parent="globals/Fenix6WatchFaceApp" pc="268438552" symbol="initialize"/>
-<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="14" lineNum="16" parent="globals/Fenix6WatchFaceApp" pc="268438571" symbol="onStop"/>
-<entry filename="Rez.mc" id="15" lineNum="1" parent="globals/Rez" pc="268438574" symbol="&lt;init&gt;"/>
-<entry filename="Rez.mc" id="16" lineNum="17" parent="globals/Rez/Layouts" pc="268438598" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268438610" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268438745" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268438857" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268438969" symbol="WatchFace"/>
-<entry filename="Rez.mc" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268439081" symbol="WatchFace"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="1" lineNum="11" parent="globals/Fenix6WatchFaceView" pc="268435457" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="5" lineNum="39" parent="globals/Fenix6WatchFaceView" pc="268435476" symbol="onLayout"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="5" lineNum="40" parent="globals/Fenix6WatchFaceView" pc="268435478" symbol="onLayout"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="32" parent="globals/Fenix6WatchFaceView" pc="268435520" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="33" parent="globals/Fenix6WatchFaceView" pc="268435522" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="34" parent="globals/Fenix6WatchFaceView" pc="268435540" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="7" lineNum="35" parent="globals/Fenix6WatchFaceView" pc="268435553" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="50" parent="globals/Fenix6WatchFaceView" pc="268435601" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="53" parent="globals/Fenix6WatchFaceView" pc="268435605" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="54" parent="globals/Fenix6WatchFaceView" pc="268435622" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="55" parent="globals/Fenix6WatchFaceView" pc="268435696" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="56" parent="globals/Fenix6WatchFaceView" pc="268435724" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="59" parent="globals/Fenix6WatchFaceView" pc="268435738" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="60" parent="globals/Fenix6WatchFaceView" pc="268435777" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="61" parent="globals/Fenix6WatchFaceView" pc="268435801" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="62" parent="globals/Fenix6WatchFaceView" pc="268435829" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="65" parent="globals/Fenix6WatchFaceView" pc="268435843" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="66" parent="globals/Fenix6WatchFaceView" pc="268435860" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="67" parent="globals/Fenix6WatchFaceView" pc="268435890" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="70" parent="globals/Fenix6WatchFaceView" pc="268435906" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="71" parent="globals/Fenix6WatchFaceView" pc="268435937" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="72" parent="globals/Fenix6WatchFaceView" pc="268435965" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="73" parent="globals/Fenix6WatchFaceView" pc="268435995" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="76" parent="globals/Fenix6WatchFaceView" pc="268436009" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="77" parent="globals/Fenix6WatchFaceView" pc="268436040" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="78" parent="globals/Fenix6WatchFaceView" pc="268436068" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="79" parent="globals/Fenix6WatchFaceView" pc="268436098" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="82" parent="globals/Fenix6WatchFaceView" pc="268436112" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="83" parent="globals/Fenix6WatchFaceView" pc="268436141" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="84" parent="globals/Fenix6WatchFaceView" pc="268436169" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="85" parent="globals/Fenix6WatchFaceView" pc="268436199" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="88" parent="globals/Fenix6WatchFaceView" pc="268436213" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="89" parent="globals/Fenix6WatchFaceView" pc="268436252" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="90" parent="globals/Fenix6WatchFaceView" pc="268436280" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="94" parent="globals/Fenix6WatchFaceView" pc="268436404" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="96" parent="globals/Fenix6WatchFaceView" pc="268436428" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="97" parent="globals/Fenix6WatchFaceView" pc="268436450" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="100" parent="globals/Fenix6WatchFaceView" pc="268436494" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="101" parent="globals/Fenix6WatchFaceView" pc="268436516" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="103" parent="globals/Fenix6WatchFaceView" pc="268436560" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="104" parent="globals/Fenix6WatchFaceView" pc="268436577" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="105" parent="globals/Fenix6WatchFaceView" pc="268436602" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="106" parent="globals/Fenix6WatchFaceView" pc="268436619" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="108" parent="globals/Fenix6WatchFaceView" pc="268436644" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="110" parent="globals/Fenix6WatchFaceView" pc="268436666" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="111" parent="globals/Fenix6WatchFaceView" pc="268436749" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="112" parent="globals/Fenix6WatchFaceView" pc="268436771" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="114" parent="globals/Fenix6WatchFaceView" pc="268436824" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="115" parent="globals/Fenix6WatchFaceView" pc="268436846" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="117" parent="globals/Fenix6WatchFaceView" pc="268436911" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="118" parent="globals/Fenix6WatchFaceView" pc="268436933" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="120" parent="globals/Fenix6WatchFaceView" pc="268436998" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="121" parent="globals/Fenix6WatchFaceView" pc="268437020" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="123" parent="globals/Fenix6WatchFaceView" pc="268437085" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="124" parent="globals/Fenix6WatchFaceView" pc="268437107" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="126" parent="globals/Fenix6WatchFaceView" pc="268437172" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="127" parent="globals/Fenix6WatchFaceView" pc="268437185" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="128" parent="globals/Fenix6WatchFaceView" pc="268437211" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="129" parent="globals/Fenix6WatchFaceView" pc="268437233" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="130" parent="globals/Fenix6WatchFaceView" pc="268437313" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="131" parent="globals/Fenix6WatchFaceView" pc="268437339" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="132" parent="globals/Fenix6WatchFaceView" pc="268437361" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="133" parent="globals/Fenix6WatchFaceView" pc="268437441" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="134" parent="globals/Fenix6WatchFaceView" pc="268437467" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="135" parent="globals/Fenix6WatchFaceView" pc="268437489" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="136" parent="globals/Fenix6WatchFaceView" pc="268437569" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="137" parent="globals/Fenix6WatchFaceView" pc="268437595" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="138" parent="globals/Fenix6WatchFaceView" pc="268437617" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="139" parent="globals/Fenix6WatchFaceView" pc="268437697" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="140" parent="globals/Fenix6WatchFaceView" pc="268437723" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="141" parent="globals/Fenix6WatchFaceView" pc="268437745" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="144" parent="globals/Fenix6WatchFaceView" pc="268437810" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceView.mc" id="8" lineNum="146" parent="globals/Fenix6WatchFaceView" pc="268437832" symbol="onUpdate"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="9" lineNum="26" parent="globals" pc="268437863" symbol="getApp"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="9" lineNum="27" parent="globals" pc="268437873" symbol="getApp"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="10" lineNum="5" parent="globals/Fenix6WatchFaceApp" pc="268437889" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="12" lineNum="20" parent="globals/Fenix6WatchFaceApp" pc="268437908" symbol="getInitialView"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="12" lineNum="21" parent="globals/Fenix6WatchFaceApp" pc="268437910" symbol="getInitialView"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="13" lineNum="7" parent="globals/Fenix6WatchFaceApp" pc="268437951" symbol="initialize"/>
+<entry filename="C:\\Neurozone\\connectiq-sdk-manager-windows\\Garmin Apps\\Fenix6WatchFace\\source\\Fenix6WatchFaceApp.mc" id="13" lineNum="8" parent="globals/Fenix6WatchFaceApp" pc="268437953" symbol="initialize"/>
+<entry filename="Rez.mc" id="15" lineNum="1" parent="globals/Rez" pc="268437972" symbol="&lt;init&gt;"/>
+<entry filename="Rez.mc" id="16" lineNum="18" parent="globals/Rez/Layouts" pc="268437996" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268438008" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="21" parent="globals/Rez/Layouts" pc="268438143" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268438255" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="23" parent="globals/Rez/Layouts" pc="268438367" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268438479" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="25" parent="globals/Rez/Layouts" pc="268438591" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="26" parent="globals/Rez/Layouts" pc="268438703" symbol="WatchFace"/>
+<entry filename="Rez.mc" id="16" lineNum="28" parent="globals/Rez/Layouts" pc="268438828" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="9" object="true" symbol="Fenix6WatchFaceApp"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8389346" symbol="text"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry id="7" module="true" symbol="globals/Rez/Menus"/>
 <entry field="true" id="14" symbol="batteryY"/>
 <entry field="true" id="13" symbol="batteryX"/>
-<entry field="true" id="33" symbol="ColorGreen"/>
-<entry field="true" id="23" symbol="rectWidth"/>
-<entry field="true" id="35" symbol="ColorRed"/>
+<entry field="true" id="30" symbol="theGoat"/>
+<entry field="true" id="35" symbol="ColorGreen"/>
+<entry field="true" id="24" symbol="rectWidth"/>
+<entry field="true" id="37" symbol="ColorRed"/>
 <entry field="true" id="15" symbol="cals"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="31" symbol="ColorBlue"/>
-<entry field="true" id="16" symbol="herRectheight"/>
-<entry field="true" id="29" symbol="AppName"/>
+<entry field="true" id="33" symbol="ColorBlue"/>
+<entry field="true" id="17" symbol="herRectheight"/>
+<entry field="true" id="31" symbol="AppName"/>
 <entry id="8" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="8388912" symbol="steps"/>
@@ -120,47 +123,48 @@
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
-<entry id="27" module="true" symbol="Menus"/>
+<entry id="28" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry field="true" id="32" symbol="ColorDarkGray"/>
+<entry field="true" id="34" symbol="ColorDarkGray"/>
 <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="36" symbol="ColorWhite"/>
+<entry field="true" id="16" symbol="goatBitmap"/>
+<entry field="true" id="38" symbol="ColorWhite"/>
 <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-<entry field="true" id="30" symbol="ColorBlack"/>
-<entry field="true" id="24" symbol="stepDisplay"/>
-<entry field="true" id="25" symbol="verticalBatteryLines"/>
+<entry field="true" id="32" symbol="ColorBlack"/>
+<entry field="true" id="25" symbol="stepDisplay"/>
+<entry field="true" id="26" symbol="verticalBatteryLines"/>
 <entry field="true" id="11" symbol="batteryDecrease"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="21" symbol="hrValue"/>
+<entry field="true" id="22" symbol="hrValue"/>
 <entry field="true" id="12" symbol="batteryState"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="28" symbol="LauncherIcon"/>
+<entry field="true" id="29" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="10" object="true" symbol="Fenix6WatchFaceView"/>
 <entry id="8388643" module="true" symbol="Sensor"/>
-<entry field="true" id="22" symbol="rectLength"/>
+<entry field="true" id="23" symbol="rectLength"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry field="true" id="18" symbol="hrRecWidth"/>
+<entry field="true" id="19" symbol="hrRecWidth"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry field="true" id="34" symbol="ColorLightGray"/>
+<entry field="true" id="36" symbol="ColorLightGray"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8389347" symbol="color"/>
-<entry id="26" module="true" symbol="Layouts"/>
-<entry field="true" id="20" symbol="hrRecY"/>
-<entry field="true" id="19" symbol="hrRecX"/>
-<entry field="true" id="17" symbol="horizontalBatteryLines"/>
+<entry id="27" module="true" symbol="Layouts"/>
+<entry field="true" id="21" symbol="hrRecY"/>
+<entry field="true" id="20" symbol="hrRecX"/>
+<entry field="true" id="18" symbol="horizontalBatteryLines"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8388635" module="true" symbol="Application"/>
@@ -168,24 +172,32 @@
 <entry field="true" id="8390078" symbol="x"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435522" name="dc" stackId="1" startPc="268435479"/>
-<entry arg="true" endPc="268438458" name="dc" stackId="1" startPc="268435557"/>
-<entry endPc="268438457" name="clockTime" stackId="2" startPc="268435561"/>
-<entry endPc="268438457" name="timeString" stackId="3" startPc="268435561"/>
-<entry endPc="268438457" name="view" stackId="4" startPc="268435561"/>
-<entry endPc="268438457" name="systemStat" stackId="5" startPc="268435561"/>
-<entry endPc="268438457" name="batteryString" stackId="6" startPc="268435561"/>
-<entry endPc="268438457" name="stepDisplay" stackId="7" startPc="268435561"/>
-<entry endPc="268438457" name="stepsString" stackId="8" startPc="268435561"/>
-<entry endPc="268438457" name="calsDisplay" stackId="9" startPc="268435561"/>
-<entry endPc="268438457" name="calsString" stackId="10" startPc="268435561"/>
-<entry endPc="268438457" name="date" stackId="11" startPc="268435561"/>
-<entry endPc="268438457" name="dayOfWeek" stackId="12" startPc="268435561"/>
-<entry arg="true" endPc="268439127" name="dc" stackId="1" startPc="268438598"/>
-<entry endPc="268439127" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268438610"/>
-<entry endPc="268439127" name="rez_cmp_local_text_DayOfWeek" stackId="3" startPc="268438610"/>
-<entry endPc="268439127" name="rez_cmp_local_text_Steps" stackId="4" startPc="268438610"/>
-<entry endPc="268439127" name="rez_cmp_local_text_Cals" stackId="5" startPc="268438610"/>
+<entry arg="true" endPc="268435519" name="dc" stackId="1" startPc="268435476"/>
+<entry arg="true" endPc="268437862" name="dc" stackId="1" startPc="268435601"/>
+<entry endPc="268437861" name="clockTime" stackId="2" startPc="268435605"/>
+<entry endPc="268437861" name="timeString" stackId="3" startPc="268435605"/>
+<entry endPc="268437861" name="view" stackId="4" startPc="268435605"/>
+<entry endPc="268437861" name="today" stackId="5" startPc="268435605"/>
+<entry endPc="268437861" name="dayString" stackId="6" startPc="268435605"/>
+<entry endPc="268437861" name="dayView" stackId="7" startPc="268435605"/>
+<entry endPc="268437861" name="systemStat" stackId="8" startPc="268435605"/>
+<entry endPc="268437861" name="batteryString" stackId="9" startPc="268435605"/>
+<entry endPc="268437861" name="stepDisplay" stackId="10" startPc="268435605"/>
+<entry endPc="268437861" name="stepsString" stackId="11" startPc="268435605"/>
+<entry endPc="268437861" name="calsDisplay" stackId="12" startPc="268435605"/>
+<entry endPc="268437861" name="calsString" stackId="13" startPc="268435605"/>
+<entry endPc="268437861" name="hrDisplay" stackId="14" startPc="268435605"/>
+<entry endPc="268437861" name="hrString" stackId="15" startPc="268435605"/>
+<entry endPc="268437861" name="date" stackId="16" startPc="268435605"/>
+<entry endPc="268437861" name="dayOfWeek" stackId="17" startPc="268435605"/>
+<entry arg="true" endPc="268438904" name="dc" stackId="1" startPc="268437996"/>
+<entry endPc="268438904" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268438008"/>
+<entry endPc="268438904" name="rez_cmp_local_text_DayOfWeek" stackId="3" startPc="268438008"/>
+<entry endPc="268438904" name="rez_cmp_local_text_DayOfMonth" stackId="4" startPc="268438008"/>
+<entry endPc="268438904" name="rez_cmp_local_text_Steps" stackId="5" startPc="268438008"/>
+<entry endPc="268438904" name="rez_cmp_local_text_hrValue" stackId="6" startPc="268438008"/>
+<entry endPc="268438904" name="rez_cmp_local_text_Cals" stackId="7" startPc="268438008"/>
+<entry endPc="268438904" name="rez_cmp_local_text_Goat" stackId="8" startPc="268438008"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
@@ -194,6 +206,7 @@
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="theGoat"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
@@ -201,17 +214,17 @@
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/Fenix6WatchFaceView" offset="158" parentId="globals" symbolId="Fenix6WatchFaceView" type="class"/>
-<dataEntry label="globals/Fenix6WatchFaceApp" offset="397" parentId="globals" symbolId="Fenix6WatchFaceApp" type="class"/>
-<dataEntry label="globals/Rez" offset="468" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="547" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="586" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="625" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="656" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="687" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="782" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Fenix6WatchFaceApp" offset="405" parentId="globals" symbolId="Fenix6WatchFaceApp" type="class"/>
+<dataEntry label="globals/Rez" offset="476" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="555" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="602" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="641" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="672" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="703" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="798" parentId="Rez" symbolId="JsonData" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="Fenix6WatchFaceView" startPc="268435460">
+<functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="Fenix6WatchFaceView" startPc="268435457">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="Fenix6WatchFaceView">
@@ -223,41 +236,41 @@
 <functionEntry accessMode="public" name="onShow" parent="Fenix6WatchFaceView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435522" name="onLayout" parent="Fenix6WatchFaceView" startPc="268435479">
+<functionEntry accessMode="public" endPc="268435519" name="onLayout" parent="Fenix6WatchFaceView" startPc="268435476">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="Fenix6WatchFaceView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435556" name="initialize" parent="Fenix6WatchFaceView" startPc="268435523">
+<functionEntry accessMode="public" endPc="268435600" name="initialize" parent="Fenix6WatchFaceView" startPc="268435520">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438458" name="onUpdate" parent="Fenix6WatchFaceView" startPc="268435557">
+<functionEntry accessMode="public" endPc="268437862" name="onUpdate" parent="Fenix6WatchFaceView" startPc="268435601">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438484" name="getApp" startPc="268438459">
+<functionEntry accessMode="public" endPc="268437888" name="getApp" startPc="268437863">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438503" name="&lt;init&gt;" parent="Fenix6WatchFaceApp" startPc="268438485">
+<functionEntry accessMode="public" endPc="268437907" name="&lt;init&gt;" parent="Fenix6WatchFaceApp" startPc="268437889">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438506" name="onStart" parent="Fenix6WatchFaceApp" startPc="268438504">
+<functionEntry accessMode="public" name="onStart" parent="Fenix6WatchFaceApp">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438549" name="getInitialView" parent="Fenix6WatchFaceApp" startPc="268438507">
+<functionEntry accessMode="public" endPc="268437950" name="getInitialView" parent="Fenix6WatchFaceApp" startPc="268437908">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438570" name="initialize" parent="Fenix6WatchFaceApp" startPc="268438550">
+<functionEntry accessMode="public" endPc="268437971" name="initialize" parent="Fenix6WatchFaceApp" startPc="268437951">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438573" name="onStop" parent="Fenix6WatchFaceApp" startPc="268438571">
+<functionEntry accessMode="public" name="onStop" parent="Fenix6WatchFaceApp">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438597" name="&lt;init&gt;" parent="Rez" startPc="268438574">
+<functionEntry accessMode="public" endPc="268437995" name="&lt;init&gt;" parent="Rez" startPc="268437972">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -278,7 +291,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439127" name="WatchFace" parent="Layouts" startPc="268438598">
+<functionEntry accessMode="public" endPc="268438904" name="WatchFace" parent="Layouts" startPc="268437996">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

@@ -6,7 +6,7 @@ import Toybox.WatchUi;
 import Toybox.Sensor;
 import Toybox.Time.Gregorian;
 import Toybox.Activity;
-import Toybox.Graphics;
+
 
 class Fenix6WatchFaceView extends WatchUi.WatchFace {
     var hrValue;
@@ -15,7 +15,7 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
     var x = 185;
     var y = 102;
     var batteryX = 198;
-    var batteryY = 104;
+    var batteryY = 104;                  
     var verticalBatteryLines = 20;
     var horizontalBatteryLines = 40;
     var batteryState;
@@ -27,12 +27,12 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
     var hrRecY = 190;
     var hrRecWidth = 35;
     var herRectheight = 5;
-
+    var goatBitmap;
 
     function initialize() {
         WatchFace.initialize();
         hrValue=0.0f;
-
+        goatBitmap = WatchUi.loadResource( Rez.Drawables.theGoat ) as BitmapResource;
     }
 
     // Load your resources here
@@ -54,6 +54,12 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         var timeString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setText(timeString);
+        
+        //Get the date of today
+        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var dayString = today.day.format("%d");
+        var dayView = View.findDrawableById("DayOfMonth") as Text;
+        dayView.setText(dayString);
 
         // Get the current battery percentage and format it correctly
         var systemStat = System.getSystemStats();
@@ -74,6 +80,9 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
 
         // Get HeartRate value and format it correctly
         hrValue = Activity.getActivityInfo().currentHeartRate;
+        var hrDisplay = View.findDrawableById("hrValue") as Text;
+        var hrString = "HR: " + hrValue.format("%d");
+        hrDisplay.setText(hrString);
         
         //Get Day of the week
         var date = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
@@ -85,7 +94,7 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
         View.onUpdate(dc);
         // Draw Rect
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-        dc.fillRectangle(x, y, rectLength, rectWidth);    
+        dc.fillRectangle(x, y, rectLength, rectWidth);   
 
         // Draw a battery to present battery Status
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
@@ -117,53 +126,25 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
        if(hrValue != null){
         if (hrValue.toNumber() >=154){
                 dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*5 + 20, hrRecY-2, hrRecWidth, herRectheight+4);
-
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.drawText((hrRecX + hrRecWidth*5 + 20)+hrRecWidth*(26-(180-hrValue.toNumber()))/26, 
-                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
-                
-
-                
+                dc.fillRectangle(hrRecX + hrRecWidth*5 + 20, hrRecY-2, hrRecWidth, herRectheight+4);             
         }else if (hrValue.toNumber() >=128){
-
                 dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
-                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY-2, hrRecWidth, herRectheight+4);
-
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.drawText((hrRecX + hrRecWidth*4 + 15)+hrRecWidth*(26-(154-hrValue.toNumber()))/26, 
-                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
-                
-      
-        
+                dc.fillRectangle(hrRecX + hrRecWidth*4 + 15, hrRecY-2, hrRecWidth, herRectheight+4);                
         }else if (hrValue.toNumber() >=102){
-
                 dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_BLACK);
                 dc.fillRectangle(hrRecX + hrRecWidth*3 + 10, hrRecY-2, hrRecWidth, herRectheight+4);
-
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.drawText((hrRecX + hrRecWidth*3 + 10)+hrRecWidth*(26-(128-hrValue.toNumber()))/26, 
-                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
-                
         }else if (hrValue.toNumber() >=76){
-
                 dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_BLACK);
                 dc.fillRectangle(hrRecX + hrRecWidth*2 + 5, hrRecY-2, hrRecWidth, herRectheight+4);
-
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.drawText((hrRecX + hrRecWidth*2 + 5)+hrRecWidth*(26-(102-hrValue.toNumber()))/26, 
-                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
-                
         }else if (hrValue.toNumber() >=50){
                 dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
                 dc.fillRectangle(hrRecX + hrRecWidth , hrRecY-2, hrRecWidth, herRectheight+4);
-
-                dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-                dc.drawText((hrRecX + hrRecWidth )+hrRecWidth*(26-(76-hrValue.toNumber()))/26, 
-                    hrRecY-2+herRectheight+4+2, Graphics.FONT_XTINY,hrValue.format("%d"), Graphics.TEXT_JUSTIFY_CENTER);
-
         }
- 
+
+        dc.setColor(Graphics.COLOR_BLACK,Graphics.COLOR_WHITE);
+        //dc.drawScaledBitmap(60, 20, 70, 70, goatBitmap);
+        dc.drawBitmap(94, 30, goatBitmap);
+
     }
 
     }
