@@ -37,7 +37,7 @@ class Fenix6WatchFaceView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.WatchFace(dc));
+        setLayout(Rez.Layouts.MOWatchFace(dc));
     }
 
     // Called when this View is brought to the foreground. Restore
